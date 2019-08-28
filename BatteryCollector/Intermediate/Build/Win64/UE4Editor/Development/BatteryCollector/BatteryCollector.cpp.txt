@@ -1,0 +1,2 @@
+C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\Definitions.BatteryCollector.h
+C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollector.h
