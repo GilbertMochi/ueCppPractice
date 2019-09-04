@@ -1,7 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\janessa.aulen\Documents\ueCppPractice).
-  Creating makefile for BatteryCollectorEditor (ini files are newer than makefile)
   Parsing headers for BatteryCollectorEditor
     Running UnrealHeaderTool "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Source/BatteryCollector/pickUp.h(40) : LogCompile: Error: Unknown variable specifier 'VisibleAnyway'
-  C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Source/BatteryCollector/pickUp.h(41) : LogCompile: Error: Property has a Category set but is not exposed to the editor or Blueprints with EditAnywhere, BlueprintReadWrite, VisibleAnywhere, BlueprintReadOnly, BlueprintAssignable, BlueprintCallable keywords.
+  Reflection code generated for BatteryCollectorEditor in 5,8814165 seconds
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 8 processes...
+    [1/6] SpawnVolume.cpp
+C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\SpawnVolume.cpp(16): error C2440: '=': cannot convert from 'UBoxComponent *' to 'USceneComponent *'
+    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\SpawnVolume.cpp(16): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\SpawnVolume.cpp(34): error C2027: use of undefined type 'UBoxComponent'
+    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\SpawnVolume.h(22): note: see declaration of 'UBoxComponent'
+C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\SpawnVolume.cpp(35): error C2027: use of undefined type 'UBoxComponent'
+    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\SpawnVolume.h(22): note: see declaration of 'UBoxComponent'
+    [2/6] BatteryCollector.init.gen.cpp
+    [3/6] SpawnVolume.gen.cpp
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" BatteryCollectorEditor Win64 Development -Project="C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

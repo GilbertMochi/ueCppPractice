@@ -1,0 +1,58 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "SpawnVolume.generated.h"
+
+UCLASS()
+class BATTERYCOLLECTOR_API ASpawnVolume : public AActor
+{
+	GENERATED_BODY()
+	
+public:	
+	// Sets default values for this actor's properties
+	ASpawnVolume();
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	//returns where to spawn subnobject
+	FORCEINLINE class UBoxComponent* GetWhereToSpawn() const { return WhereToSpawn; }
+
+	//find a random point within the box component
+	UFUNCTION(BlueprintPure, Category = "Spawning")
+		FVector GetRandomPointInVolume();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+	//the pickup to spawn
+	UPROPERTY(EditAnywhere, Category = "Spawning")
+	TSubclassOf<class ApickUp>WhatToSpawn;
+
+	FTimerHandle SpawnTimer;
+
+	//minumum spawn delay
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
+	float SpawnDelayRangeLow;
+
+	//maximum spawn delay
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
+	float SpawnDelayRangeHigh;
+
+
+private:
+	//box componenet to specify where pickups should be spawned
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Spawning", meta = (AllowPrivateAccess="true"))
+	class UBoxComponent *WhereToSpawn;
+
+	//spawns a new pickup
+	void SpawnPickup();
+
+
+	//current spawn delay
+	float SpawnDelay;
+};
