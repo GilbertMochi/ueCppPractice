@@ -8,6 +8,9 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Components/SphereComponent.h"
+
+#include "pickUp.h"
 
 //////////////////////////////////////////////////////////////////////////
 // ABatteryCollectorCharacter
@@ -45,6 +48,11 @@ ABatteryCollectorCharacter::ABatteryCollectorCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	//create the collection sphere
+	CollectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
+	CollectionSphere -> AttachTo(RootComponent);
+	CollectionSphere->SetSphereRadius(200.0f);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -56,6 +64,8 @@ void ABatteryCollectorCharacter::SetupPlayerInputComponent(class UInputComponent
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	PlayerInputComponent->BindAction("Collect", IE_Released, this, &ABatteryCollectorCharacter::CollectPickups);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ABatteryCollectorCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ABatteryCollectorCharacter::MoveRight);
@@ -74,6 +84,10 @@ void ABatteryCollectorCharacter::SetupPlayerInputComponent(class UInputComponent
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ABatteryCollectorCharacter::OnResetVR);
+
+	//base power for character
+	InitialPower = 2000;
+	CharacterPower = InitialPower;
 }
 
 
@@ -131,4 +145,42 @@ void ABatteryCollectorCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+void ABatteryCollectorCharacter::CollectPickups() {
+	//store overlapping actors in  an array
+	TArray<AActor*> CollectedActors;
+	CollectionSphere->GetOverlappingActors(CollectedActors);
+	
+	//foreach overlapping actor
+	for (int i = 0; i < CollectedActors.Num(); i++) {
+		
+		//cast to apickup
+		ApickUp* const TestPickup = Cast<ApickUp>(CollectedActors[i]);
+
+		//if cast is succesfull and pickup is active and valid
+		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive()) {
+			//call the pickups wascollected function
+			TestPickup->WasCollected();
+
+		//deactivate the pickup
+			TestPickup->SetActive(false);
+		}
+
+		
+	}
+}
+//start power
+float ABatteryCollectorCharacter::GetInitialPower() {
+	return InitialPower;
+}
+
+//current power
+float ABatteryCollectorCharacter::GetCurrentPower() {
+	return CharacterPower;
+}
+
+//update power
+void ABatteryCollectorCharacter::UpdatePower(float powerChange) {
+	CharacterPower += powerChange;
 }

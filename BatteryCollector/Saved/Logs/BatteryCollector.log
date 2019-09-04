@@ -1062,3 +1062,764 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.09.04-11.57.43:163][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
 [2019.09.04-11.57.43:320][496]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Level18189542C434AE57A9677E39C7B2F42CF.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level1.umap'
 [2019.09.04-11.57.43:349][496]LogFileHelpers: Saving map 'Level1' took 0.217
+[2019.09.04-11.58.17:124][999]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2019.09.04-11.58.18:196][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.04-11.58.18:298][104]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.04-11.58.18:313][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.09.04-11.58.18:313][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.04-11.58.18:313][104]PIE: New page: PIE session: Level1 (Sep 4, 2019, 5:58:18 PM)
+[2019.09.04-11.58.18:313][104]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2019.09.04-11.58.18:316][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002656s)
+[2019.09.04-11.58.18:317][104]LogAIModule: Creating AISystem for world Level1
+[2019.09.04-11.58.18:317][104]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2019.09.04-11.58.18:317][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.003496s)
+[2019.09.04-11.58.18:344][104]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2019.09.04-11.58.18:364][104]LogInit: XAudio2 using 'Speakers (3- Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.04-11.58.18:374][104]LogInit: FAudioDevice initialized.
+[2019.09.04-11.58.18:406][104]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2019.09.04-11.58.18:407][104]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.09.04-14.58.18
+[2019.09.04-11.58.18:408][104]LogWorld: Bringing up level for play took: 0.001097
+[2019.09.04-11.58.18:420][104]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.066
+[2019.09.04-11.58.18:421][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.09.04-12.24.12:074][355]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-323.91 Y=-182.26 Z=0.00 Location: X=1227.29 Y=29.83 Z=96.48 Normal: X=0.40 Y=-0.78 Z=0.47 PenetrationDepth:3.334 Actor:Battery_BP_C_144 Component:PickUpMesh BoneName:None (0 other events since notify)
+[2019.09.04-12.24.17:124][506]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=484.92 Y=353.35 Z=0.00 Location: X=806.20 Y=-319.78 Z=144.34 Normal: X=-0.81 Y=0.34 Z=0.48 PenetrationDepth:0.540 Actor:Battery_BP_C_461 Component:PickUpMesh BoneName:None (1 other events since notify)
+[2019.09.04-12.24.19:760][625]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-409.44 Y=-69.46 Z=0.00 Location: X=1094.08 Y=-7.47 Z=99.10 Normal: X=0.64 Y=-0.65 Z=0.40 PenetrationDepth:13.960 Actor:Battery_BP_C_494 Component:PickUpMesh BoneName:None (2 other events since notify)
+[2019.09.04-12.24.24:948][935]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.09.04-12.24.24:949][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.04-12.24.24:984][935]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.04-12.24.24:984][935]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.09.04-12.24.25:012][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.04-12.24.25:018][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.09.04-12.24.25:043][936]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.09.04-12.39.16:916][162]LogHotReload: New module detected: UE4Editor-BatteryCollector-0016.dll
+[2019.09.04-12.39.17:600][165]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.04-12.39.17:634][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.09.04-12.39.17:634][165]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
+[2019.09.04-12.39.17:659][165]LogClass: Could not find existing class BatteryPickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2019.09.04-12.39.17:659][165]LogClass: Could not find existing class pickUp in package /Script/BatteryCollector for HotReload, assuming new class
+[2019.09.04-12.39.17:659][165]LogClass: Function IsActive is new.
+[2019.09.04-12.39.17:659][165]LogClass: Function SetActive is new.
+[2019.09.04-12.39.17:659][165]LogClass: Function WasCollected is new.
+[2019.09.04-12.39.17:672][165]LogHotReload: Re-instancing BatteryPickup after hot-reload.
+[2019.09.04-12.39.17:893][165]LogHotReload: Re-instancing pickUp after hot-reload.
+[2019.09.04-12.39.18:114][165]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2019.09.04-12.39.18:224][165]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
+[2019.09.04-12.39.18:224][165]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2019.09.04-12.39.18:229][165]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.04-12.39.18:291][165]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2019.09.04-12.39.18:291][165]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.04-12.39.18:307][165]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2738 classes and 663 folders.
+[2019.09.04-12.39.18:310][165]Display: HotReload took  0.7s.
+[2019.09.04-12.41.06:710][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.04-12.55.21:275][821]Cmd: SELECT NONE
+[2019.09.04-13.01.40:734][640]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.04-13.10.04:684][528]Candidate modules for hot reload:
+[2019.09.04-13.10.04:684][528]  BatteryCollector
+[2019.09.04-13.10.04:684][528]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,2300 Win64 Development -TargetType=Editor -Project="C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject" "C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
+[2019.09.04-13.10.04:689][528]Warning: Starting HotReload took  0.0s.
+[2019.09.04-13.10.14:528][697]CompilerResultsLog: New page: Compilation - Sep 4, 2019, 7:10:14 PM
+[2019.09.04-13.10.14:528][697]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\janessa.aulen\Documents\ueCppPractice).
+[2019.09.04-13.10.14:528][697]CompilerResultsLog: Creating makefile for BatteryCollectorEditor (ini files are newer than makefile)
+[2019.09.04-13.10.14:528][697]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.04-13.10.14:528][697]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 5,7495922 seconds
+[2019.09.04-13.10.14:528][697]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.04-13.10.14:528][697]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:   [1/7] BatteryCollector.init.gen.cpp
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:   [2/7] BatteryCollectorCharacter.gen.cpp
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:   [3/7] BatteryCollectorGameMode.cpp
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:   [4/7] BatteryCollectorCharacter.cpp
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(53) : error C3861: 'AttachTo': identifier not found
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(54) : error C2027: use of undefined type 'USphereComponent'
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.h(24): note: see declaration of 'USphereComponent'
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(148) : error C2027: use of undefined type 'USphereComponent'
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.h(24): note: see declaration of 'USphereComponent'
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(151) : error C3867: 'TArray<AActor *,FDefaultAllocator>::Num': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(151) : error C2446: '<': no conversion from 'int32 (__cdecl TArray<AActor *,FDefaultAllocator>::* )(void) const' to 'int'
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(151): note: There is no context in which this conversion is possible
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(157) : error C4551: function call missing argument list
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(157) : error C3867: 'ApickUp::IsActive': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.10.14:528][697]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(159) : error C3867: 'ApickUp::WasCollected': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.10.14:528][697]LogMainFrame: MainFrame: Module compiling took 9.847 seconds
+[2019.09.04-13.10.14:529][697]Warning: HotReload failed, recompile failed
+[2019.09.04-13.11.21:517][128]Candidate modules for hot reload:
+[2019.09.04-13.11.21:517][128]  BatteryCollector
+[2019.09.04-13.11.21:517][128]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,8864 Win64 Development -TargetType=Editor -Project="C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject" "C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
+[2019.09.04-13.11.21:525][128]Warning: Starting HotReload took  0.0s.
+[2019.09.04-13.11.29:847][864]CompilerResultsLog: New page: Compilation - Sep 4, 2019, 7:11:29 PM
+[2019.09.04-13.11.29:847][864]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\janessa.aulen\Documents\ueCppPractice).
+[2019.09.04-13.11.29:847][864]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2019.09.04-13.11.29:847][864]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.04-13.11.29:847][864]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 6,163851 seconds
+[2019.09.04-13.11.29:847][864]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.04-13.11.29:847][864]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.09.04-13.11.29:847][864]CompilerResultsLog:   [1/4] BatteryCollectorCharacter.cpp
+[2019.09.04-13.11.29:848][864]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(53) : error C2027: use of undefined type 'USphereComponent'
+[2019.09.04-13.11.29:848][864]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.h(24): note: see declaration of 'USphereComponent'
+[2019.09.04-13.11.29:848][864]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(54) : error C2027: use of undefined type 'USphereComponent'
+[2019.09.04-13.11.29:848][864]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.h(24): note: see declaration of 'USphereComponent'
+[2019.09.04-13.11.29:848][864]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(148) : error C2027: use of undefined type 'USphereComponent'
+[2019.09.04-13.11.29:848][864]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.h(24): note: see declaration of 'USphereComponent'
+[2019.09.04-13.11.29:848][864]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(151) : error C3867: 'TArray<AActor *,FDefaultAllocator>::Num': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.11.29:848][864]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(151) : error C2446: '<': no conversion from 'int32 (__cdecl TArray<AActor *,FDefaultAllocator>::* )(void) const' to 'int'
+[2019.09.04-13.11.29:848][864]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(151): note: There is no context in which this conversion is possible
+[2019.09.04-13.11.29:848][864]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(157) : error C4551: function call missing argument list
+[2019.09.04-13.11.29:848][864]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(157) : error C3867: 'ApickUp::IsActive': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.11.29:848][864]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(159) : error C3867: 'ApickUp::WasCollected': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.11.29:848][864]LogMainFrame: MainFrame: Module compiling took 8.333 seconds
+[2019.09.04-13.11.29:848][864]Warning: HotReload failed, recompile failed
+[2019.09.04-13.12.19:829][344]Candidate modules for hot reload:
+[2019.09.04-13.12.19:829][344]  BatteryCollector
+[2019.09.04-13.12.19:829][344]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,8938 Win64 Development -TargetType=Editor -Project="C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject" "C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
+[2019.09.04-13.12.19:834][344]Warning: Starting HotReload took  0.0s.
+[2019.09.04-13.12.28:225][178]CompilerResultsLog: New page: Compilation - Sep 4, 2019, 7:12:28 PM
+[2019.09.04-13.12.28:225][178]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\janessa.aulen\Documents\ueCppPractice).
+[2019.09.04-13.12.28:225][178]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2019.09.04-13.12.28:225][178]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.04-13.12.28:225][178]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 6,1455366 seconds
+[2019.09.04-13.12.28:225][178]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.04-13.12.28:225][178]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.09.04-13.12.28:225][178]CompilerResultsLog:   [1/4] BatteryCollectorCharacter.cpp
+[2019.09.04-13.12.28:225][178]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(53) : error C2027: use of undefined type 'USphereComponent'
+[2019.09.04-13.12.28:225][178]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.h(24): note: see declaration of 'USphereComponent'
+[2019.09.04-13.12.28:225][178]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(54) : error C2027: use of undefined type 'USphereComponent'
+[2019.09.04-13.12.28:225][178]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.h(24): note: see declaration of 'USphereComponent'
+[2019.09.04-13.12.28:225][178]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(148) : error C2027: use of undefined type 'USphereComponent'
+[2019.09.04-13.12.28:225][178]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.h(24): note: see declaration of 'USphereComponent'
+[2019.09.04-13.12.28:225][178]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(151) : error C3867: 'TArray<AActor *,FDefaultAllocator>::Num': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.12.28:225][178]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(151) : error C2446: '<': no conversion from 'int32 (__cdecl TArray<AActor *,FDefaultAllocator>::* )(void) const' to 'int'
+[2019.09.04-13.12.28:226][178]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(151): note: There is no context in which this conversion is possible
+[2019.09.04-13.12.28:226][178]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(157) : error C4551: function call missing argument list
+[2019.09.04-13.12.28:226][178]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(157) : error C3867: 'ApickUp::IsActive': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.12.28:226][178]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(159) : error C3867: 'ApickUp::WasCollected': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.12.28:226][178]LogMainFrame: MainFrame: Module compiling took 8.400 seconds
+[2019.09.04-13.12.28:226][178]Warning: HotReload failed, recompile failed
+[2019.09.04-13.14.03:180][411]LogSlate: Window 'Message Log' being destroyed
+[2019.09.04-13.14.03:192][411]LogSlate: Window 'Message Log' being destroyed
+[2019.09.04-13.14.04:604][579]Candidate modules for hot reload:
+[2019.09.04-13.14.04:604][579]  BatteryCollector
+[2019.09.04-13.14.04:604][579]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,2715 Win64 Development -TargetType=Editor -Project="C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject" "C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
+[2019.09.04-13.14.04:609][579]Warning: Starting HotReload took  0.0s.
+[2019.09.04-13.14.13:181][254]CompilerResultsLog: New page: Compilation - Sep 4, 2019, 7:14:13 PM
+[2019.09.04-13.14.13:181][254]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\janessa.aulen\Documents\ueCppPractice).
+[2019.09.04-13.14.13:181][254]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2019.09.04-13.14.13:181][254]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.04-13.14.13:181][254]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 6,1888698 seconds
+[2019.09.04-13.14.13:181][254]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.04-13.14.13:181][254]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.09.04-13.14.13:181][254]CompilerResultsLog:   [1/4] BatteryCollectorCharacter.cpp
+[2019.09.04-13.14.13:181][254]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(54): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.09.04-13.14.13:181][254]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
+[2019.09.04-13.14.13:181][254]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(152) : error C3867: 'TArray<AActor *,FDefaultAllocator>::Num': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.14.13:181][254]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(152) : error C2446: '<': no conversion from 'int32 (__cdecl TArray<AActor *,FDefaultAllocator>::* )(void) const' to 'int'
+[2019.09.04-13.14.13:181][254]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(152): note: There is no context in which this conversion is possible
+[2019.09.04-13.14.13:182][254]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(158) : error C4551: function call missing argument list
+[2019.09.04-13.14.13:182][254]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(158) : error C3867: 'ApickUp::IsActive': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.14.13:182][254]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(160) : error C3867: 'ApickUp::WasCollected': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.14.13:182][254]LogMainFrame: MainFrame: Module compiling took 8.581 seconds
+[2019.09.04-13.14.13:182][254]Warning: HotReload failed, recompile failed
+[2019.09.04-13.24.10:923][187]LogSlate: Window 'Message Log' being destroyed
+[2019.09.04-13.24.10:927][187]LogSlate: Window 'Message Log' being destroyed
+[2019.09.04-13.24.12:546][261]Candidate modules for hot reload:
+[2019.09.04-13.24.12:546][261]  BatteryCollector
+[2019.09.04-13.24.12:546][261]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,4191 Win64 Development -TargetType=Editor -Project="C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject" "C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
+[2019.09.04-13.24.12:554][261]Warning: Starting HotReload took  0.0s.
+[2019.09.04-13.24.21:114][951]CompilerResultsLog: New page: Compilation - Sep 4, 2019, 7:24:21 PM
+[2019.09.04-13.24.21:114][951]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\janessa.aulen\Documents\ueCppPractice).
+[2019.09.04-13.24.21:114][951]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2019.09.04-13.24.21:114][951]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.04-13.24.21:114][951]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 6,0905364 seconds
+[2019.09.04-13.24.21:114][951]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.04-13.24.21:114][951]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.09.04-13.24.21:114][951]CompilerResultsLog:   [1/4] BatteryCollectorCharacter.cpp
+[2019.09.04-13.24.21:114][951]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(54): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.09.04-13.24.21:114][951]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
+[2019.09.04-13.24.21:114][951]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(152) : error C3867: 'TArray<AActor *,FDefaultAllocator>::Num': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.24.21:115][951]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(152) : error C2446: '<': no conversion from 'int32 (__cdecl TArray<AActor *,FDefaultAllocator>::* )(void) const' to 'int'
+[2019.09.04-13.24.21:115][951]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(152): note: There is no context in which this conversion is possible
+[2019.09.04-13.24.21:115][951]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(158) : error C4551: function call missing argument list
+[2019.09.04-13.24.21:115][951]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(158) : error C3867: 'ApickUp::IsActive': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.24.21:115][951]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(160) : error C3867: 'ApickUp::WasCollected': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.24.21:115][951]LogMainFrame: MainFrame: Module compiling took 8.571 seconds
+[2019.09.04-13.24.21:115][951]Warning: HotReload failed, recompile failed
+[2019.09.04-13.24.55:308][250]LogSlate: Window 'Message Log' being destroyed
+[2019.09.04-13.24.55:320][250]LogSlate: Window 'Message Log' being destroyed
+[2019.09.04-13.24.57:223][477]Candidate modules for hot reload:
+[2019.09.04-13.24.57:223][477]  BatteryCollector
+[2019.09.04-13.24.57:223][477]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,1178 Win64 Development -TargetType=Editor -Project="C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject" "C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
+[2019.09.04-13.24.57:230][477]Warning: Starting HotReload took  0.0s.
+[2019.09.04-13.25.06:418][564]CompilerResultsLog: New page: Compilation - Sep 4, 2019, 7:25:06 PM
+[2019.09.04-13.25.06:418][564]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\janessa.aulen\Documents\ueCppPractice).
+[2019.09.04-13.25.06:418][564]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2019.09.04-13.25.06:418][564]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.04-13.25.06:418][564]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 6,902315 seconds
+[2019.09.04-13.25.06:418][564]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.04-13.25.06:418][564]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.09.04-13.25.06:418][564]CompilerResultsLog:   [1/4] BatteryCollectorCharacter.cpp
+[2019.09.04-13.25.06:418][564]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(54): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.09.04-13.25.06:418][564]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
+[2019.09.04-13.25.06:418][564]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(152) : error C3867: 'TArray<AActor *,FDefaultAllocator>::Num': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.25.06:418][564]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(152) : error C2446: '<': no conversion from 'int32 (__cdecl TArray<AActor *,FDefaultAllocator>::* )(void) const' to 'int'
+[2019.09.04-13.25.06:418][564]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(152): note: There is no context in which this conversion is possible
+[2019.09.04-13.25.06:418][564]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(158) : error C4551: function call missing argument list
+[2019.09.04-13.25.06:418][564]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(158) : error C3867: 'ApickUp::IsActive': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.25.06:418][564]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(160) : error C3867: 'ApickUp::WasCollected': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.25.06:418][564]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(163) : error C2662: 'void ApickUp::SetActive(bool)': cannot convert 'this' pointer from 'const ApickUp' to 'ApickUp &'
+[2019.09.04-13.25.06:418][564]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(163): note: Conversion loses qualifiers
+[2019.09.04-13.25.06:418][564]LogMainFrame: MainFrame: Module compiling took 9.200 seconds
+[2019.09.04-13.25.06:418][564]Warning: HotReload failed, recompile failed
+[2019.09.04-13.31.28:430][754]LogSlate: Window 'Message Log' being destroyed
+[2019.09.04-13.31.28:444][754]LogSlate: Window 'Message Log' being destroyed
+[2019.09.04-13.31.29:881][925]Candidate modules for hot reload:
+[2019.09.04-13.31.29:881][925]  BatteryCollector
+[2019.09.04-13.31.29:881][925]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,6856 Win64 Development -TargetType=Editor -Project="C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject" "C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
+[2019.09.04-13.31.29:888][925]Warning: Starting HotReload took  0.0s.
+[2019.09.04-13.31.38:213][672]CompilerResultsLog: New page: Compilation - Sep 4, 2019, 7:31:38 PM
+[2019.09.04-13.31.38:213][672]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\janessa.aulen\Documents\ueCppPractice).
+[2019.09.04-13.31.38:213][672]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2019.09.04-13.31.38:213][672]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.04-13.31.38:213][672]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 6,1121425 seconds
+[2019.09.04-13.31.38:213][672]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.04-13.31.38:213][672]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.09.04-13.31.38:213][672]CompilerResultsLog:   [1/4] BatteryCollectorCharacter.cpp
+[2019.09.04-13.31.38:213][672]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(54): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.09.04-13.31.38:214][672]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
+[2019.09.04-13.31.38:214][672]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(158) : error C4551: function call missing argument list
+[2019.09.04-13.31.38:214][672]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(158) : error C3867: 'ApickUp::IsActive': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.31.38:214][672]CompilerResultsLog:    C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(160) : error C3867: 'ApickUp::WasCollected': non-standard syntax; use '&' to create a pointer to member
+[2019.09.04-13.31.38:214][672]LogMainFrame: MainFrame: Module compiling took 8.336 seconds
+[2019.09.04-13.31.38:214][672]Warning: HotReload failed, recompile failed
+[2019.09.04-13.32.12:371][322]LogSlate: Window 'Message Log' being destroyed
+[2019.09.04-13.32.12:384][322]LogSlate: Window 'Message Log' being destroyed
+[2019.09.04-13.32.13:568][463]Candidate modules for hot reload:
+[2019.09.04-13.32.13:568][463]  BatteryCollector
+[2019.09.04-13.32.13:568][463]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,7043 Win64 Development -TargetType=Editor -Project="C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject" "C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
+[2019.09.04-13.32.13:575][463]Warning: Starting HotReload took  0.0s.
+[2019.09.04-13.32.23:326][282]CompilerResultsLog: New page: Compilation - Sep 4, 2019, 7:32:23 PM
+[2019.09.04-13.32.23:326][282]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\janessa.aulen\Documents\ueCppPractice).
+[2019.09.04-13.32.23:326][282]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2019.09.04-13.32.23:326][282]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.04-13.32.23:326][282]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 6,0930795 seconds
+[2019.09.04-13.32.23:326][282]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.04-13.32.23:326][282]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.09.04-13.32.23:326][282]CompilerResultsLog:   [1/4] BatteryCollectorCharacter.cpp
+[2019.09.04-13.32.23:326][282]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(54): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.09.04-13.32.23:326][282]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
+[2019.09.04-13.32.23:327][282]CompilerResultsLog:   [2/4] UE4Editor-BatteryCollector-7043.lib
+[2019.09.04-13.32.23:327][282]CompilerResultsLog:      Creating library C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-7043.lib and object C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-7043.exp
+[2019.09.04-13.32.23:327][282]CompilerResultsLog:   [3/4] UE4Editor-BatteryCollector-7043.dll
+[2019.09.04-13.32.23:327][282]CompilerResultsLog:      Creating library C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-7043.suppressed.lib and object C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-7043.suppressed.exp
+[2019.09.04-13.32.23:327][282]CompilerResultsLog:   [4/4] BatteryCollectorEditor.target
+[2019.09.04-13.32.23:327][282]CompilerResultsLog: Total time in Parallel executor: 2,47 seconds
+[2019.09.04-13.32.23:327][282]CompilerResultsLog: Total execution time: 9,66 seconds
+[2019.09.04-13.32.23:327][282]LogMainFrame: MainFrame: Module compiling took 9.761 seconds
+[2019.09.04-13.32.23:391][282]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2019.09.04-13.32.23:391][282]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
+[2019.09.04-13.32.23:406][282]LogClass: Could not find existing class BatteryCollectorCharacter in package /Script/BatteryCollector for HotReload, assuming new class
+[2019.09.04-13.32.23:406][282]LogClass: Function CollectPickups is new.
+[2019.09.04-13.32.23:421][282]LogHotReload: Re-instancing BatteryCollectorCharacter after hot-reload.
+[2019.09.04-13.32.23:675][282]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2019.09.04-13.32.23:811][282]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
+[2019.09.04-13.32.23:811][282]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2019.09.04-13.32.23:815][282]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2019.09.04-13.32.23:903][282]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.09.04-13.32.23:903][282]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.04-13.32.23:918][282]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2738 classes and 663 folders.
+[2019.09.04-13.32.23:918][282]Display: HotReload took 10.4s.
+[2019.09.04-13.32.30:458][825]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.04-13.32.30:475][825]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.09.04-13.32.30:475][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.04-13.32.30:475][825]PIE: New page: PIE session: Level1 (Sep 4, 2019, 7:32:30 PM)
+[2019.09.04-13.32.30:475][825]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2019.09.04-13.32.30:479][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003231s)
+[2019.09.04-13.32.30:480][825]LogAIModule: Creating AISystem for world Level1
+[2019.09.04-13.32.30:480][825]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2019.09.04-13.32.30:480][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.004668s)
+[2019.09.04-13.32.30:547][825]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2019.09.04-13.32.30:568][825]LogInit: XAudio2 using 'Speakers (3- Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.04-13.32.30:579][825]LogInit: FAudioDevice initialized.
+[2019.09.04-13.32.30:606][825]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2019.09.04-13.32.30:608][825]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.09.04-16.32.30
+[2019.09.04-13.32.30:608][825]LogWorld: Bringing up level for play took: 0.001087
+[2019.09.04-13.32.30:623][825]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.253
+[2019.09.04-13.32.30:623][825]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.09.04-13.32.46:560][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.09.04-13.32.46:561][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.04-13.32.46:590][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.04-13.32.46:590][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.09.04-13.32.46:626][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.04-13.32.46:641][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2019.09.04-13.32.46:665][735]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.09.04-13.32.50:059][134]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.04-13.32.53:614][546]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.04-13.32.53:670][546]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2019.09.04-13.32.54:657][546]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.09.04-13.34.40:154][643]LogSlate: Window 'Project Settings' being destroyed
+[2019.09.04-13.34.40:166][643]LogSlate: Window 'Project Settings' being destroyed
+[2019.09.04-13.34.42:233][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.04-13.34.42:307][896]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.04-13.34.42:323][896]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.09.04-13.34.42:323][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.04-13.34.42:323][896]PIE: New page: PIE session: Level1 (Sep 4, 2019, 7:34:42 PM)
+[2019.09.04-13.34.42:323][896]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2019.09.04-13.34.42:327][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003628s)
+[2019.09.04-13.34.42:328][896]LogAIModule: Creating AISystem for world Level1
+[2019.09.04-13.34.42:328][896]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2019.09.04-13.34.42:328][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.004773s)
+[2019.09.04-13.34.42:392][896]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.09.04-13.34.42:412][896]LogInit: XAudio2 using 'Speakers (3- Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.04-13.34.42:422][896]LogInit: FAudioDevice initialized.
+[2019.09.04-13.34.42:451][896]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2019.09.04-13.34.42:453][896]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.09.04-16.34.42
+[2019.09.04-13.34.42:453][896]LogWorld: Bringing up level for play took: 0.001112
+[2019.09.04-13.34.42:467][896]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.096
+[2019.09.04-13.34.42:467][896]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.09.04-13.34.51:307][954]LogClass: You have collected Battery_BP_C_0
+[2019.09.04-13.34.51:307][954]LogClass: You have collected Battery_BP_C_1
+[2019.09.04-13.34.52:682][119]LogClass: You have collected Battery_BP_C_2
+[2019.09.04-13.34.54:467][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.09.04-13.34.54:467][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.04-13.34.54:495][333]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.04-13.34.54:495][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.09.04-13.34.54:524][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.04-13.34.54:545][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.09.04-13.34.54:568][334]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.09.04-13.43.47:553][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.04-13.43.47:613][202]Candidate modules for hot reload:
+[2019.09.04-13.43.47:613][202]  BatteryCollector
+[2019.09.04-13.43.47:614][202]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,3503 Win64 Development -TargetType=Editor -Project="C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject" "C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
+[2019.09.04-13.43.47:618][202]Warning: Starting HotReload took  0.0s.
+[2019.09.04-13.43.56:959][363]CompilerResultsLog: New page: Compilation - Sep 4, 2019, 7:43:56 PM
+[2019.09.04-13.43.56:959][363]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\janessa.aulen\Documents\ueCppPractice).
+[2019.09.04-13.43.56:959][363]CompilerResultsLog: Creating makefile for BatteryCollectorEditor (ini files are newer than makefile)
+[2019.09.04-13.43.56:959][363]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2019.09.04-13.43.56:959][363]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.04-13.43.56:959][363]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 5,6290299 seconds
+[2019.09.04-13.43.56:959][363]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.04-13.43.56:959][363]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.09.04-13.43.56:959][363]CompilerResultsLog:   [1/6] BatteryCollector.init.gen.cpp
+[2019.09.04-13.43.56:959][363]CompilerResultsLog:   [2/6] BatteryPickup.cpp
+[2019.09.04-13.43.56:959][363]CompilerResultsLog:   [3/6] BatteryPickup.gen.cpp
+[2019.09.04-13.43.56:959][363]CompilerResultsLog:   [4/6] UE4Editor-BatteryCollector-3503.lib
+[2019.09.04-13.43.56:960][363]CompilerResultsLog:      Creating library C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-3503.lib and object C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-3503.exp
+[2019.09.04-13.43.56:960][363]CompilerResultsLog:   [5/6] UE4Editor-BatteryCollector-3503.dll
+[2019.09.04-13.43.56:960][363]CompilerResultsLog:      Creating library C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-3503.suppressed.lib and object C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-3503.suppressed.exp
+[2019.09.04-13.43.56:960][363]CompilerResultsLog:   [6/6] BatteryCollectorEditor.target
+[2019.09.04-13.43.56:960][363]CompilerResultsLog: Total time in Parallel executor: 1,52 seconds
+[2019.09.04-13.43.56:960][363]CompilerResultsLog: Total execution time: 9,17 seconds
+[2019.09.04-13.43.56:960][363]LogMainFrame: MainFrame: Module compiling took 9.348 seconds
+[2019.09.04-13.43.56:984][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.09.04-13.43.56:984][363]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
+[2019.09.04-13.43.57:002][363]LogClass: Could not find existing class BatteryPickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2019.09.04-13.43.57:017][363]LogHotReload: Re-instancing BatteryPickup after hot-reload.
+[2019.09.04-13.43.57:227][363]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2019.09.04-13.43.57:333][363]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
+[2019.09.04-13.43.57:334][363]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2019.09.04-13.43.57:337][363]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2019.09.04-13.43.57:402][363]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.09.04-13.43.57:402][363]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.04-13.43.57:416][363]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2738 classes and 663 folders.
+[2019.09.04-13.43.57:416][363]Display: HotReload took  9.8s.
+[2019.09.04-13.44.16:540][420]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.04-13.44.18:120][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.04-13.44.25:166][290]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Battery_BP.Battery_BP
+[2019.09.04-13.44.43:191][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.04-13.44.43:328][ 15]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Battery_BP.Battery_BP
+[2019.09.04-13.44.48:791][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Battery_BP" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/Battery_BP.uasset" SILENT=true
+[2019.09.04-13.44.48:822][540]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Battery_BPBD1ECBB5403A3BC66A1CBCB84470E8C4.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/Battery_BP.uasset'
+[2019.09.04-13.44.49:719][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Battery_BP" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/Battery_BP.uasset" SILENT=true
+[2019.09.04-13.44.49:730][641]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Battery_BP3A506F4F45EBF8CAC6F2A2AB184D4E9F.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/Battery_BP.uasset'
+[2019.09.04-13.44.50:072][681]BlueprintLog: New page: Compile Battery_BP
+[2019.09.04-13.44.50:283][681]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2019.09.04-14.04.34:031][725]Candidate modules for hot reload:
+[2019.09.04-14.04.34:031][725]  BatteryCollector
+[2019.09.04-14.04.34:031][725]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,2457 Win64 Development -TargetType=Editor -Project="C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject" "C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
+[2019.09.04-14.04.34:038][725]Warning: Starting HotReload took  0.0s.
+[2019.09.04-14.04.45:347][956]CompilerResultsLog: New page: Compilation - Sep 4, 2019, 8:04:45 PM
+[2019.09.04-14.04.45:347][956]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\janessa.aulen\Documents\ueCppPractice).
+[2019.09.04-14.04.45:347][956]CompilerResultsLog: Creating makefile for BatteryCollectorEditor (ini files are newer than makefile)
+[2019.09.04-14.04.45:347][956]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2019.09.04-14.04.45:347][956]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.04-14.04.45:347][956]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 6,4758804 seconds
+[2019.09.04-14.04.45:347][956]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.04-14.04.45:347][956]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.09.04-14.04.45:347][956]CompilerResultsLog:   [1/7] BatteryCollector.init.gen.cpp
+[2019.09.04-14.04.45:347][956]CompilerResultsLog:   [2/7] BatteryCollectorGameMode.cpp
+[2019.09.04-14.04.45:347][956]CompilerResultsLog:   [3/7] BatteryCollectorCharacter.gen.cpp
+[2019.09.04-14.04.45:347][956]CompilerResultsLog:   [4/7] BatteryCollectorCharacter.cpp
+[2019.09.04-14.04.45:347][956]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(54): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.09.04-14.04.45:347][956]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
+[2019.09.04-14.04.45:347][956]CompilerResultsLog:   [5/7] UE4Editor-BatteryCollector-2457.lib
+[2019.09.04-14.04.45:347][956]CompilerResultsLog:      Creating library C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-2457.lib and object C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-2457.exp
+[2019.09.04-14.04.45:347][956]CompilerResultsLog:   [6/7] UE4Editor-BatteryCollector-2457.dll
+[2019.09.04-14.04.45:347][956]CompilerResultsLog:      Creating library C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-2457.suppressed.lib and object C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-2457.suppressed.exp
+[2019.09.04-14.04.45:347][956]CompilerResultsLog:   [7/7] BatteryCollectorEditor.target
+[2019.09.04-14.04.45:347][956]CompilerResultsLog: Total time in Parallel executor: 2,56 seconds
+[2019.09.04-14.04.45:347][956]CompilerResultsLog: Total execution time: 11,21 seconds
+[2019.09.04-14.04.45:347][956]LogMainFrame: MainFrame: Module compiling took 11.319 seconds
+[2019.09.04-14.04.45:395][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2019.09.04-14.04.45:395][956]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
+[2019.09.04-14.04.45:412][956]LogClass: Could not find existing class BatteryCollectorCharacter in package /Script/BatteryCollector for HotReload, assuming new class
+[2019.09.04-14.04.45:412][956]LogClass: Function CollectPickups is new.
+[2019.09.04-14.04.45:412][956]LogClass: Function GetCurrentPower is new.
+[2019.09.04-14.04.45:412][956]LogClass: Function GetInitialPower is new.
+[2019.09.04-14.04.45:412][956]LogClass: Function UpdatePower is new.
+[2019.09.04-14.04.45:430][956]LogHotReload: Re-instancing BatteryCollectorCharacter after hot-reload.
+[2019.09.04-14.04.45:653][956]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2019.09.04-14.04.45:760][956]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
+[2019.09.04-14.04.45:760][956]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2019.09.04-14.04.45:764][956]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2019.09.04-14.04.45:833][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2019.09.04-14.04.45:833][956]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.04-14.04.45:846][956]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2738 classes and 663 folders.
+[2019.09.04-14.04.45:846][956]Display: HotReload took 11.8s.
+[2019.09.04-14.04.49:839][361]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2019.09.04-14.05.20:423][329]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.09.04-14.05.20:489][329]LogSlate: Window 'BatteryCollector - Unreal Editor' being destroyed
+[2019.09.04-14.05.20:490][329]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.04-14.05.20:693][330]Cmd: QUIT_EDITOR
+[2019.09.04-14.05.21:661][330]LogExit: Preparing to exit.
+[2019.09.04-14.05.22:758][330]LogExit: Editor shut down
+[2019.09.04-14.05.22:759][330]LogExit: Transaction tracking system shut down
+[2019.09.04-14.05.23:059][330]LogExit: Object subsystem successfully closed.
+[2019.09.04-14.05.23:102][330]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.09.04-14.05.23:107][330]LogD3D11RHI: Shutdown
+[2019.09.04-14.05.23:107][330]LogD3D11RHI: CleanupD3DDevice
+[2019.09.04-14.05.23:108][330]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.09.04-14.05.23:108][330]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.04-14.05.23:109][330]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.09.04-14.05.23:109][330]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.04-14.05.23:109][330]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.09.04-14.05.23:109][330]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.04-14.05.23:231][330]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.09.04-14.05.23:284][330]LogModuleManager: Shutting down and abandoning module BatteryCollector (666)
+[2019.09.04-14.05.23:284][330]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (664)
+[2019.09.04-14.05.23:284][330]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (658)
+[2019.09.04-14.05.23:284][330]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (656)
+[2019.09.04-14.05.23:285][330]LogModuleManager: Shutting down and abandoning module MeshBuilder (654)
+[2019.09.04-14.05.23:285][330]LogModuleManager: Shutting down and abandoning module BlueprintGraph (652)
+[2019.09.04-14.05.23:285][330]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (650)
+[2019.09.04-14.05.23:285][330]LogModuleManager: Shutting down and abandoning module Voice (648)
+[2019.09.04-14.05.23:285][330]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2019.09.04-14.05.23:285][330]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2019.09.04-14.05.23:285][330]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2019.09.04-14.05.23:286][330]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2019.09.04-14.05.23:286][330]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2019.09.04-14.05.23:286][330]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2019.09.04-14.05.23:286][330]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2019.09.04-14.05.23:287][330]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2019.09.04-14.05.23:287][330]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2019.09.04-14.05.23:288][330]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2019.09.04-14.05.23:288][330]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2019.09.04-14.05.23:288][330]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2019.09.04-14.05.23:288][330]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2019.09.04-14.05.23:288][330]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2019.09.04-14.05.23:288][330]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2019.09.04-14.05.23:289][330]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2019.09.04-14.05.23:290][330]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2019.09.04-14.05.23:290][330]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2019.09.04-14.05.23:290][330]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2019.09.04-14.05.23:290][330]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2019.09.04-14.05.23:290][330]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2019.09.04-14.05.23:291][330]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2019.09.04-14.05.23:292][330]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2019.09.04-14.05.23:292][330]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2019.09.04-14.05.23:293][330]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2019.09.04-14.05.23:293][330]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2019.09.04-14.05.23:293][330]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2019.09.04-14.05.23:293][330]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2019.09.04-14.05.23:293][330]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2019.09.04-14.05.23:293][330]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2019.09.04-14.05.23:294][330]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2019.09.04-14.05.23:294][330]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2019.09.04-14.05.23:295][330]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2019.09.04-14.05.23:296][330]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2019.09.04-14.05.23:297][330]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2019.09.04-14.05.23:298][330]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2019.09.04-14.05.23:299][330]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2019.09.04-14.05.23:299][330]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2019.09.04-14.05.23:299][330]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2019.09.04-14.05.23:299][330]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2019.09.04-14.05.23:299][330]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2019.09.04-14.05.23:299][330]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2019.09.04-14.05.23:508][330]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2019.09.04-14.05.23:508][330]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2019.09.04-14.05.23:508][330]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2019.09.04-14.05.23:508][330]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2019.09.04-14.05.23:508][330]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2019.09.04-14.05.23:508][330]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2019.09.04-14.05.23:509][330]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2019.09.04-14.05.23:509][330]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2019.09.04-14.05.23:510][330]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2019.09.04-14.05.23:510][330]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2019.09.04-14.05.23:510][330]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2019.09.04-14.05.23:510][330]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2019.09.04-14.05.23:511][330]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2019.09.04-14.05.23:511][330]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2019.09.04-14.05.23:511][330]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2019.09.04-14.05.23:511][330]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2019.09.04-14.05.23:511][330]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2019.09.04-14.05.23:511][330]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2019.09.04-14.05.23:511][330]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2019.09.04-14.05.23:512][330]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2019.09.04-14.05.23:512][330]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2019.09.04-14.05.23:512][330]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2019.09.04-14.05.23:513][330]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2019.09.04-14.05.23:568][330]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2019.09.04-14.05.23:569][330]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2019.09.04-14.05.23:569][330]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2019.09.04-14.05.23:570][330]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2019.09.04-14.05.23:570][330]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2019.09.04-14.05.23:571][330]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2019.09.04-14.05.23:571][330]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2019.09.04-14.05.23:572][330]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2019.09.04-14.05.23:573][330]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2019.09.04-14.05.23:573][330]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2019.09.04-14.05.23:573][330]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2019.09.04-14.05.23:577][330]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2019.09.04-14.05.23:578][330]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2019.09.04-14.05.23:579][330]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2019.09.04-14.05.23:579][330]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2019.09.04-14.05.23:579][330]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.09.04-14.05.23:579][330]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.09.04-14.05.23:580][330]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.09.04-14.05.23:580][330]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.09.04-14.05.23:580][330]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.09.04-14.05.23:580][330]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2019.09.04-14.05.23:581][330]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2019.09.04-14.05.23:581][330]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2019.09.04-14.05.23:581][330]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2019.09.04-14.05.23:581][330]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2019.09.04-14.05.23:581][330]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2019.09.04-14.05.23:581][330]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2019.09.04-14.05.23:581][330]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2019.09.04-14.05.23:581][330]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2019.09.04-14.05.23:581][330]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2019.09.04-14.05.23:581][330]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2019.09.04-14.05.23:582][330]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2019.09.04-14.05.23:582][330]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2019.09.04-14.05.23:582][330]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2019.09.04-14.05.23:582][330]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2019.09.04-14.05.23:585][330]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2019.09.04-14.05.23:633][330]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2019.09.04-14.05.23:638][330]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2019.09.04-14.05.23:638][330]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2019.09.04-14.05.23:638][330]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2019.09.04-14.05.23:638][330]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2019.09.04-14.05.23:639][330]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2019.09.04-14.05.23:639][330]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2019.09.04-14.05.23:639][330]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2019.09.04-14.05.23:639][330]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2019.09.04-14.05.23:639][330]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2019.09.04-14.05.23:639][330]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2019.09.04-14.05.23:639][330]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2019.09.04-14.05.23:639][330]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2019.09.04-14.05.23:639][330]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2019.09.04-14.05.23:640][330]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2019.09.04-14.05.23:640][330]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2019.09.04-14.05.23:640][330]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2019.09.04-14.05.23:640][330]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2019.09.04-14.05.23:640][330]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2019.09.04-14.05.23:640][330]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.09.04-14.05.23:641][330]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.09.04-14.05.23:642][330]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.09.04-14.05.23:642][330]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.09.04-14.05.23:643][330]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.09.04-14.05.23:644][330]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2019.09.04-14.05.23:644][330]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.09.04-14.05.23:644][330]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.09.04-14.05.23:644][330]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.09.04-14.05.23:644][330]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.09.04-14.05.23:644][330]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.09.04-14.05.23:644][330]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.09.04-14.05.23:645][330]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.09.04-14.05.23:646][330]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.09.04-14.05.23:646][330]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.09.04-14.05.23:647][330]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.09.04-14.05.23:647][330]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2019.09.04-14.05.23:647][330]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.09.04-14.05.23:647][330]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.09.04-14.05.23:647][330]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.09.04-14.05.23:647][330]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.09.04-14.05.23:647][330]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.09.04-14.05.23:647][330]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.09.04-14.05.23:648][330]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2019.09.04-14.05.23:648][330]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2019.09.04-14.05.23:648][330]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2019.09.04-14.05.23:648][330]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2019.09.04-14.05.23:648][330]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.09.04-14.05.23:648][330]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.09.04-14.05.23:648][330]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.09.04-14.05.23:748][330]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.09.04-14.05.23:850][330]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.09.04-14.05.23:850][330]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.09.04-14.05.23:850][330]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.09.04-14.05.23:850][330]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.09.04-14.05.23:850][330]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.09.04-14.05.23:851][330]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.09.04-14.05.23:851][330]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.09.04-14.05.23:851][330]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.09.04-14.05.23:851][330]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.09.04-14.05.23:851][330]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.09.04-14.05.23:851][330]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.09.04-14.05.23:851][330]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.09.04-14.05.23:851][330]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.09.04-14.05.23:852][330]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.09.04-14.05.23:853][330]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.09.04-14.05.23:854][330]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.09.04-14.05.23:854][330]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.09.04-14.05.23:854][330]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.09.04-14.05.23:854][330]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.09.04-14.05.23:855][330]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.09.04-14.05.23:855][330]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.09.04-14.05.23:856][330]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.09.04-14.05.23:856][330]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.09.04-14.05.23:856][330]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.09.04-14.05.23:856][330]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.09.04-14.05.23:856][330]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.09.04-14.05.23:857][330]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.09.04-14.05.23:857][330]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.09.04-14.05.23:857][330]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.09.04-14.05.23:857][330]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.09.04-14.05.23:857][330]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.09.04-14.05.23:857][330]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.09.04-14.05.23:857][330]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.09.04-14.05.23:858][330]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.09.04-14.05.23:858][330]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.09.04-14.05.23:858][330]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.09.04-14.05.23:860][330]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.09.04-14.05.23:860][330]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.09.04-14.05.23:861][330]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.09.04-14.05.23:861][330]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.09.04-14.05.23:861][330]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.09.04-14.05.23:862][330]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.09.04-14.05.23:864][330]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.09.04-14.05.23:864][330]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.09.04-14.05.23:866][330]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.09.04-14.05.23:866][330]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.09.04-14.05.23:867][330]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.09.04-14.05.23:871][330]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.09.04-14.05.23:871][330]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.09.04-14.05.23:871][330]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.09.04-14.05.23:871][330]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.09.04-14.05.23:871][330]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.09.04-14.05.23:871][330]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.09.04-14.05.23:871][330]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.09.04-14.05.23:871][330]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.09.04-14.05.23:871][330]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.09.04-14.05.23:871][330]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.09.04-14.05.23:871][330]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.09.04-14.05.23:871][330]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.09.04-14.05.23:872][330]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.09.04-14.05.23:872][330]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.09.04-14.05.23:873][330]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.09.04-14.05.23:939][330]LogDerivedDataCache: Shutdown
+[2019.09.04-14.05.23:939][330]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.09.04-14.05.23:940][330]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.09.04-14.05.23:940][330]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.09.04-14.05.23:940][330]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.09.04-14.05.23:941][330]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.09.04-14.05.23:941][330]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.09.04-14.05.23:941][330]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.09.04-14.05.23:942][330]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.09.04-14.05.23:942][330]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.09.04-14.05.23:942][330]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.09.04-14.05.23:942][330]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.09.04-14.05.23:942][330]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.09.04-14.05.23:942][330]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.09.04-14.05.23:942][330]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.09.04-14.05.23:942][330]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.09.04-14.05.23:942][330]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.09.04-14.05.23:943][330]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.09.04-14.05.23:943][330]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.09.04-14.05.23:944][330]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.09.04-14.05.23:944][330]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.09.04-14.05.23:944][330]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.09.04-14.05.23:944][330]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.09.04-14.05.23:944][330]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.09.04-14.05.23:945][330]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.09.04-14.05.23:945][330]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.09.04-14.05.23:945][330]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.09.04-14.05.23:946][330]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.09.04-14.05.23:951][330]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.09.04-14.05.23:951][330]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.09.04-14.05.23:952][330]LogHMD: Freeing OpenVRDLLHandle.
+[2019.09.04-14.05.23:952][330]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.09.04-14.05.23:953][330]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.09.04-14.05.23:953][330]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.09.04-14.05.23:953][330]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.09.04-14.05.23:953][330]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.09.04-14.05.23:954][330]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.09.04-14.05.23:954][330]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.09.04-14.05.23:978][330]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.09.04-14.05.23:978][330]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.09.04-14.05.23:978][330]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4D8A31CA-4DB2-A0D0-FBA4-A390812E0C87%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=d84fa0fc4bf37e58c6f8ee9a1586e0fa%7Cc7720e0659c04a6ab9f9e7d8d1bc83d3%7Ccad42706-c10f-47ba-9d2c-2d5d9f951f89&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.09.04-14.05.23:995][330]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.09.04-14.05.23:996][330]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.09.04-14.05.23:998][330]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.09.04-14.05.24:004][330]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.09.04-14.05.24:004][330]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.09.04-14.05.24:005][330]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.09.04-14.05.24:005][330]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.09.04-14.05.24:006][330]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.09.04-14.05.24:007][330]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.09.04-14.05.24:007][330]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.09.04-14.05.24:007][330]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.09.04-14.05.24:007][330]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.09.04-14.05.24:008][330]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.09.04-14.05.24:009][330]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.09.04-14.05.24:009][330]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.09.04-14.05.24:009][330]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.09.04-14.05.24:009][330]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.09.04-14.05.24:009][330]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.09.04-14.05.24:009][330]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.09.04-14.05.24:009][330]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.09.04-14.05.24:009][330]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.09.04-14.05.24:009][330]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.09.04-14.05.24:009][330]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.09.04-14.05.24:009][330]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.09.04-14.05.24:017][330]LogExit: Exiting.
+[2019.09.04-14.05.24:033][330]Log file closed, 09/04/19 17:05:24

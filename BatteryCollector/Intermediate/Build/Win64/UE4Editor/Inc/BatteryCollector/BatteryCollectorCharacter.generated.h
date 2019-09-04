@@ -13,8 +13,78 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BATTERYCOLLECTOR_BatteryCollectorCharacter_generated_h
 
-#define BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_12_RPC_WRAPPERS
-#define BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execUpdatePower) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_powerChange); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->UpdatePower(Z_Param_powerChange); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetCurrentPower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetCurrentPower(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetInitialPower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetInitialPower(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCollectPickups) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CollectPickups(); \
+		P_NATIVE_END; \
+	}
+
+
+#define BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execUpdatePower) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_powerChange); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->UpdatePower(Z_Param_powerChange); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetCurrentPower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetCurrentPower(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetInitialPower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetInitialPower(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCollectPickups) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CollectPickups(); \
+		P_NATIVE_END; \
+	}
+
+
 #define BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABatteryCollectorCharacter(); \
@@ -59,7 +129,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABatteryCollectorCharacter); \
 
 #define BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ABatteryCollectorCharacter, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(ABatteryCollectorCharacter, FollowCamera); }
+	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(ABatteryCollectorCharacter, FollowCamera); } \
+	FORCEINLINE static uint32 __PPO__CollectionSphere() { return STRUCT_OFFSET(ABatteryCollectorCharacter, CollectionSphere); } \
+	FORCEINLINE static uint32 __PPO__InitialPower() { return STRUCT_OFFSET(ABatteryCollectorCharacter, InitialPower); } \
+	FORCEINLINE static uint32 __PPO__CharacterPower() { return STRUCT_OFFSET(ABatteryCollectorCharacter, CharacterPower); }
 
 
 #define BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_9_PROLOG
