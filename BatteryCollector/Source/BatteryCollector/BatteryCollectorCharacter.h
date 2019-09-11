@@ -67,6 +67,9 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	// End of APawn interface
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "Power")
+	void PowerChangeEffect();
+
 	//called when a key is pressed and collects pickups inside the range of the collection sphere
 	UFUNCTION(BlueprintCallable, Category = "Pickups")
 	void CollectPickups();
@@ -74,6 +77,14 @@ protected:
 	//starting powerlevel of our character
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Power")
 	float InitialPower;
+
+	//multiplier for speed
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Power", Meta =(BlueprintProtected = "true"))
+	float SpeedFactor;
+	
+	//speed when powerlevel = 0
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Power", Meta = (BlueprintProtected = "true"))
+	float BaseSpeed;
 
 private: 
 	//current power of our character

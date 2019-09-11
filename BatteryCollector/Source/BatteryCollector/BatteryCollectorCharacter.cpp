@@ -11,6 +11,7 @@
 #include "Components/SphereComponent.h"
 
 #include "pickUp.h"
+#include <BatteryCollector\BatteryPickup.h>
 
 //////////////////////////////////////////////////////////////////////////
 // ABatteryCollectorCharacter
@@ -88,6 +89,10 @@ void ABatteryCollectorCharacter::SetupPlayerInputComponent(class UInputComponent
 	//base power for character
 	InitialPower = 2000;
 	CharacterPower = InitialPower;
+
+	//dependance of speed on power level
+	SpeedFactor = 0.75f;
+	BaseSpeed = 10.0f;
 }
 
 
@@ -151,6 +156,9 @@ void ABatteryCollectorCharacter::CollectPickups() {
 	//store overlapping actors in  an array
 	TArray<AActor*> CollectedActors;
 	CollectionSphere->GetOverlappingActors(CollectedActors);
+
+	//a variable to keep track of collected battery power
+	float collectedPower = 0;
 	
 	//foreach overlapping actor
 	for (int i = 0; i < CollectedActors.Num(); i++) {
@@ -163,11 +171,20 @@ void ABatteryCollectorCharacter::CollectPickups() {
 			//call the pickups wascollected function
 			TestPickup->WasCollected();
 
-		//deactivate the pickup
-			TestPickup->SetActive(false);
-		}
+			//check if collected is also a battery
+			ABatteryPickup* const TestBattery = Cast<ABatteryPickup>(TestPickup);
+			if (TestBattery) {
+				//add battery's power to total
+				collectedPower += TestBattery->GetPower();
+			}
 
-		
+			//deactivate the pickup
+			TestPickup->SetActive(false);
+		}		
+	}
+
+	if (collectedPower != 0) {
+		this->UpdatePower(collectedPower);
 	}
 }
 //start power
@@ -180,7 +197,14 @@ float ABatteryCollectorCharacter::GetCurrentPower() {
 	return CharacterPower;
 }
 
-//update power
+//update power, called when power is increased of decreased
 void ABatteryCollectorCharacter::UpdatePower(float powerChange) {
+	//change power level
 	CharacterPower += powerChange;
+
+	//change speed based on power level
+	GetCharacterMovement()->MaxWalkSpeed = BaseSpeed + SpeedFactor * CharacterPower;
+
+	//call visual effect
+	this->PowerChangeEffect();
 }
