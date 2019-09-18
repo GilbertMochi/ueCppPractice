@@ -25,6 +25,10 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Spawning")
 		FVector GetRandomPointInVolume();
 
+	//toggle whether to spawn pickups or not
+	UFUNCTION(BlueprintCallable, Category="Spawning")
+	void SetSpawningActive(bool bShouldSpawn);
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
