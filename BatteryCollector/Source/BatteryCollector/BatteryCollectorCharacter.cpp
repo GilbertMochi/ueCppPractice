@@ -12,6 +12,7 @@
 
 #include "pickUp.h"
 #include <BatteryCollector\BatteryPickup.h>
+#include <string>
 
 //////////////////////////////////////////////////////////////////////////
 // ABatteryCollectorCharacter
@@ -52,8 +53,16 @@ ABatteryCollectorCharacter::ABatteryCollectorCharacter()
 
 	//create the collection sphere
 	CollectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
-	CollectionSphere -> AttachTo(RootComponent);
+	CollectionSphere->AttachTo(RootComponent);
 	CollectionSphere->SetSphereRadius(200.0f);
+
+	//let the sphere collide
+	CollectionSphere->SetCollisionProfileName(TEXT("OverlapAll"));
+	CollectionSphere->SetGenerateOverlapEvents(true);
+
+	//calls the event overlap when something hits the sphere
+	CollectionSphere->OnComponentBeginOverlap.AddDynamic(this, &ABatteryCollectorCharacter::OnOverlapBegin);
+
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -95,6 +104,26 @@ void ABatteryCollectorCharacter::SetupPlayerInputComponent(class UInputComponent
 	BaseSpeed = 10.0f;
 }
 
+void ABatteryCollectorCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
+
+	FString OtherName = OtherActor->GetName();
+	std::string OtherNameStr = std::string(TCHAR_TO_UTF8(*OtherName));
+
+	UE_LOG(LogTemp, Warning, TEXT("%s"), *FString(OtherNameStr.c_str()));
+
+
+
+	//cast the thing colliding with this to a pickup
+	ApickUp* other = Cast<ApickUp>(OtherActor);
+
+	//if cast was valid and other is a pickup
+	if (other) {
+
+		UE_LOG(LogTemp, Warning, TEXT("beginoverlap should start picking up"));
+
+		CollectPickups();
+	}
+}
 
 void ABatteryCollectorCharacter::OnResetVR()
 {
