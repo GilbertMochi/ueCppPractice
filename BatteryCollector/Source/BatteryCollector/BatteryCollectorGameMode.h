@@ -26,6 +26,9 @@ private:
 
 	TArray<class ASpawnVolume*>SpawnVolumeActors;
 
+	//handle all function calls that rely on state changes
+	void HandleNewState(EBatteryPlayState newState);
+
 protected:
 	//rate at which the character loses power
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Power", Meta = (BlueprintProtected = "true"))
