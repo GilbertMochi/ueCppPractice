@@ -182,6 +182,7 @@ void ABatteryCollectorCharacter::MoveRight(float Value)
 }
 
 void ABatteryCollectorCharacter::CollectPickups() {
+
 	//store overlapping actors in  an array
 	TArray<AActor*> CollectedActors;
 	CollectionSphere->GetOverlappingActors(CollectedActors);

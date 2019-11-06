@@ -1,0 +1,3 @@
+C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollector.Build.cs
+C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector.Target.cs
+C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollectorEditor.Target.cs

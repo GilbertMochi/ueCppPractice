@@ -1,0 +1,5 @@
+C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\Definitions.BatteryCollector.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector/SpawnVolume.h
+C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Inc\BatteryCollector\SpawnVolume.generated.h

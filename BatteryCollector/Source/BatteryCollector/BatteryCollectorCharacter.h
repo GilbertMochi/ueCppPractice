@@ -19,9 +19,10 @@ class ABatteryCollectorCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
 
-	/** Follow camera */
+	//sphere that acts as the area which tells distance for being able to pickup objects
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class USphereComponent *CollectionSphere;
+
 
 public:
 	ABatteryCollectorCharacter();

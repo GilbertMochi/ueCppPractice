@@ -1,0 +1,976 @@
+﻿Log file open, 11/06/19 12:03:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BatteryCollector
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.167014
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -EpicPortal -epicusername=GilbertMochi -epicuserid=c7720e0659c04a6ab9f9e7d8d1bc83d3 -epiclocale=en-US
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.11.06-10.03.01:712][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.06-10.03.01:712][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.06-10.03.01:713][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.11.06-10.03.01:713][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.11.06-10.03.01:717][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:717][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.06-10.03.01:717][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.06-10.03.01:717][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:717][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.06-10.03.01:717][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.06-10.03.01:718][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.06-10.03.01:718][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.06-10.03.01:718][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.06-10.03.01:731][  0]LogHAL: Display: Platform has ~ 16 GB [17066573824 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.06-10.03.01:731][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.06-10.03.01:731][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.06-10.03.01:731][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.06-10.03.01:732][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.11.06-10.03.01:732][  0]LogInit: Computer: GAMELAB-47
+[2019.11.06-10.03.01:732][  0]LogInit: User: janessaaulen
+[2019.11.06-10.03.01:732][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.06-10.03.01:732][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.06-10.03.01:732][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.06-10.03.01:732][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.06-10.03.01:732][  0]LogMemory: Process Physical Memory: 96.57 MB used, 96.57 MB peak
+[2019.11.06-10.03.01:732][  0]LogMemory: Process Virtual Memory: 83.77 MB used, 83.77 MB peak
+[2019.11.06-10.03.01:732][  0]LogMemory: Physical Memory: 5885.60 MB used,  10390.35 MB free, 16275.95 MB total
+[2019.11.06-10.03.01:732][  0]LogMemory: Virtual Memory: 4624.89 MB used,  134213104.00 MB free, 134217728.00 MB total
+[2019.11.06-10.03.01:750][  0]LogInit: Using OS detected language (en-US).
+[2019.11.06-10.03.01:750][  0]LogInit: Using OS detected locale (en-FI).
+[2019.11.06-10.03.01:751][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.06-10.03.01:900][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.06-10.03.01:932][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.06-10.03.01:932][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.06-10.03.02:075][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.06-10.03.02:075][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.06-10.03.02:133][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.11.06-10.03.02:133][  0]LogD3D11RHI:       6052/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.11.06-10.03.02:154][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.11.06-10.03.02:154][  0]LogD3D11RHI:       128/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.06-10.03.02:156][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.06-10.03.02:156][  0]LogD3D11RHI:       0/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.06-10.03.02:156][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.06-10.03.02:162][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.06-10.03.02:162][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.06-10.03.02:162][  0]LogWindows: EnumDisplayDevices:
+[2019.11.06-10.03.02:162][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.11.06-10.03.02:163][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.11.06-10.03.02:163][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.11.06-10.03.02:163][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.11.06-10.03.02:163][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.06-10.03.02:164][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.06-10.03.02:164][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.06-10.03.02:164][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.11.06-10.03.02:164][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.11.06-10.03.02:164][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.11.06-10.03.02:164][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.11.06-10.03.02:164][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.11.06-10.03.02:197][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.06-10.03.02:201][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.06-10.03.02:201][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.06-10.03.02:201][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.06-10.03.02:214][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.06-10.03.02:532][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.06-10.03.02:545][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.06-10.03.02:557][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.06-10.03.02:570][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.06-10.03.02:583][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.06-10.03.02:595][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.06-10.03.02:608][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.06-10.03.02:620][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.06-10.03.02:626][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.06-10.03.02:700][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.06-10.03.02:701][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.06-10.03.02:702][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.06-10.03.02:750][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.06-10.03.02:750][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.06-10.03.02:773][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.06-10.03.02:773][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.06-10.03.02:784][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.06-10.03.02:796][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.06-10.03.02:808][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.06-10.03.02:820][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.06-10.03.02:862][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.06-10.03.02:862][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.06-10.03.02:862][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.06-10.03.02:870][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.06-10.03.02:916][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Intermediate/Shaders/WorkingDirectory/8316/).
+[2019.11.06-10.03.02:916][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/janessa.aulen/AppData/Local/Temp/UnrealShaderWorkingDir/0BCB57BC407E0CF600C4F3AE1900ECFF/'.
+[2019.11.06-10.03.02:918][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.06-10.03.02:918][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.06-10.03.02:918][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.06-10.03.03:438][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.06-10.03.03:483][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/janessa.aulen/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.06-10.03.03:483][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/janessa.aulen/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.06-10.03.03:483][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.06-10.03.03:483][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.06-10.03.03:483][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.06-10.03.03:483][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.06-10.03.03:495][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.06-10.03.03:495][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.06-10.03.03:495][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.06-10.03.03:507][  0]LogDerivedDataCache: Using Local data cache path C:/Users/janessa.aulen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.06-10.03.03:507][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.06-10.03.03:507][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.06-10.03.03:528][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.06-10.03.03:529][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.06-10.03.03:530][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.06-10.03.03:607][  0]LogAssetRegistry: FAssetRegistry took 0.0323 seconds to start up
+[2019.11.06-10.03.03:912][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.06-10.03.04:032][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.06-10.03.04:032][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.06-10.03.04:032][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.06-10.03.04:032][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.06-10.03.04:032][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.06-10.03.04:041][  0]LogNetVersion: BatteryCollector 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2114802313)
+[2019.11.06-10.03.04:391][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.036255 seconds
+[2019.11.06-10.03.04:397][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.06-10.03.04:397][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.06-10.03.04:397][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.06-10.03.05:113][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.06-10.03.05:126][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.06-10.03.05:551][  0]SourceControl: Source control is disabled
+[2019.11.06-10.03.05:551][  0]SourceControl: Source control is disabled
+[2019.11.06-10.03.05:552][  0]SourceControl: Source control is disabled
+[2019.11.06-10.03.05:553][  0]SourceControl: Source control is disabled
+[2019.11.06-10.03.05:615][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.06-10.03.05:734][  0]LogOcInput: OculusInput pre-init called
+[2019.11.06-10.03.06:322][  0]LogEngine: Initializing Engine...
+[2019.11.06-10.03.06:323][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.06-10.03.06:324][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.06-10.03.06:508][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.06-10.03.06:521][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.06-10.03.06:543][  0]LogInit: XAudio2 using 'Speakers (2- Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.06-10.03.06:563][  0]LogInit: FAudioDevice initialized.
+[2019.11.06-10.03.06:563][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.06-10.03.06:642][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/janessa.aulen/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.06-10.03.06:651][  0]LogInit: Texture streaming: Enabled
+[2019.11.06-10.03.06:666][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.06-10.03.06:684][  0]LogInit: Transaction tracking system initialized
+[2019.11.06-10.03.06:707][  0]BlueprintLog: New page: Editor Load
+[2019.11.06-10.03.06:779][  0]LocalizationService: Localization service is disabled
+[2019.11.06-10.03.07:036][  0]LogFileCache: Scanning file cache for directory 'C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/' took 0.02s
+[2019.11.06-10.03.07:036][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.06-10.03.07:036][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.06-10.03.07:181][  0]SourceControl: Source control is disabled
+[2019.11.06-10.03.07:181][  0]Cmd: MAP LOAD FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.06-10.03.07:186][  0]LightingResults: New page: Lighting Build
+[2019.11.06-10.03.07:189][  0]MapCheck: New page: Map Check
+[2019.11.06-10.03.07:189][  0]LightingResults: New page: Lighting Build
+[2019.11.06-10.03.07:212][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.11.06-10.03.08:259][  0]LogAIModule: Creating AISystem for world Level1
+[2019.11.06-10.03.08:271][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.06-10.03.08:296][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2019.11.06-10.03.08:297][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.06-10.03.08:297][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.116ms to complete.
+[2019.11.06-10.03.08:297][  0]LogFileHelpers: Loading map 'Level1' took 1.116
+[2019.11.06-10.03.08:433][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-10.03.08:442][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-10.03.08:450][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-10.03.08:458][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-10.03.08:472][  0]LogCollectionManager: Loaded 0 collections in 0.001571 seconds
+[2019.11.06-10.03.08:524][  0]LogFileCache: Scanning file cache for directory 'C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Collections/' took 0.01s
+[2019.11.06-10.03.08:524][  0]LogFileCache: Scanning file cache for directory 'C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Developers/janessaaulen/Collections/' took 0.01s
+[2019.11.06-10.03.08:524][  0]LogFileCache: Scanning file cache for directory 'C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Collections/' took 0.01s
+[2019.11.06-10.03.08:524][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.06-10.03.08:535][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2737 classes and 661 folders.
+[2019.11.06-10.03.08:548][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.06-10.03.08:556][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:564][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:578][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:590][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:595][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:606][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:612][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:618][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:623][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:629][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:635][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:641][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:652][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:677][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:687][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:692][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:698][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:704][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:709][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:714][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:720][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:725][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:731][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-10.03.08:885][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.06-10.03.08:896][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.11.06-10.03.09:043][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.06-10.03.09:045][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.06-10.03.09:055][  0]LogSlate: Took 0.005404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.06-10.03.09:176][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2019.11.06-10.03.09:325][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.06-10.03.09:325][  0]LogLoad: (Engine Initialization) Total time: 8.85 seconds
+[2019.11.06-10.03.09:325][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.06-10.03.09:358][  0]LogAssetRegistry: Asset discovery search completed in 5.7725 seconds
+[2019.11.06-10.03.09:360][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.06-10.03.09:360][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2019.11.06-10.03.09:362][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.06-10.03.10:365][106]LogSlate: Took 0.012195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.06-10.03.12:674][377]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.06-10.03.12:875][388]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/MainMenuHud.MainMenuHud
+[2019.11.06-10.03.13:222][388]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2019.11.06-10.03.14:014][388]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BP/MainMenuWidget.MainMenuWidget
+[2019.11.06-10.03.14:268][388]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.11.06-10.03.14:626][388]LogSlate: Took 0.005366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.06-10.03.16:355][554]LogSlate: Took 0.004591 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.06-10.03.17:954][739]LogSlate: Window 'MainMenuWidget' being destroyed
+[2019.11.06-10.03.21:313][141]LogSlate: Window 'Message Log' being destroyed
+[2019.11.06-10.03.21:315][141]LogSlate: Window 'Message Log' being destroyed
+[2019.11.06-10.03.22:256][253]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.11.06-10.03.22:258][253]Candidate modules for hot reload:
+[2019.11.06-10.03.22:258][253]  BatteryCollector
+[2019.11.06-10.03.22:258][253]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,2078 Win64 Development -TargetType=Editor -Project="C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject" "C:/Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
+[2019.11.06-10.03.22:260][253]Warning: Starting HotReload took  0.0s.
+[2019.11.06-10.03.43:082][647]LogAssetEditorManager: Opening Asset editor for Class /Script/BatteryCollector.BatteryPickup
+[2019.11.06-10.04.28:661][725]CompilerResultsLog: New page: Compilation - Nov 6, 2019, 2:04:28 PM
+[2019.11.06-10.04.28:661][725]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\janessa.aulen\Documents\ueCppPractice).
+[2019.11.06-10.04.28:662][725]CompilerResultsLog: Creating makefile for BatteryCollectorEditor (no existing makefile)
+[2019.11.06-10.04.28:662][725]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\BatteryCollector.uproject" "C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.06-10.04.28:662][725]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 6,2338271 seconds
+[2019.11.06-10.04.28:662][725]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.06-10.04.28:662][725]CompilerResultsLog: Building 19 actions with 4 processes...
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [1/19] Default.rc2
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [2/19] SharedPCH.Engine.cpp
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [3/19] EvilBatteryPickup.cpp
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [4/19] BatteryCollector.cpp
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [5/19] pickUp.cpp
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [6/19] BatteryPickup.cpp
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [7/19] BatteryCollectorCharacter.cpp
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\BatteryCollectorCharacter.cpp(56): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [8/19] BatteryCollector.init.gen.cpp
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [9/19] BatteryCollectorGameMode.gen.cpp
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [10/19] BatteryPickup.gen.cpp
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [11/19] EvilBatteryPickup.gen.cpp
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [12/19] pickUp.gen.cpp
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [13/19] SpawnVolume.gen.cpp
+[2019.11.06-10.04.28:662][725]CompilerResultsLog:   [14/19] BatteryCollectorCharacter.gen.cpp
+[2019.11.06-10.04.28:663][725]CompilerResultsLog:   [15/19] SpawnVolume.cpp
+[2019.11.06-10.04.28:663][725]CompilerResultsLog:   [16/19] BatteryCollectorGameMode.cpp
+[2019.11.06-10.04.28:663][725]CompilerResultsLog:   [17/19] UE4Editor-BatteryCollector-2078.lib
+[2019.11.06-10.04.28:663][725]CompilerResultsLog:      Creating library C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-2078.lib and object C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-2078.exp
+[2019.11.06-10.04.28:663][725]CompilerResultsLog:   [18/19] UE4Editor-BatteryCollector-2078.dll
+[2019.11.06-10.04.28:663][725]CompilerResultsLog:      Creating library C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-2078.suppressed.lib and object C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-2078.suppressed.exp
+[2019.11.06-10.04.28:663][725]CompilerResultsLog:   [19/19] BatteryCollectorEditor.target
+[2019.11.06-10.04.28:663][725]CompilerResultsLog: Total time in Parallel executor: 41,18 seconds
+[2019.11.06-10.04.28:663][725]CompilerResultsLog: Total execution time: 66,18 seconds
+[2019.11.06-10.04.28:663][725]LogMainFrame: MainFrame: Module compiling took 66.406 seconds
+[2019.11.06-10.04.28:746][725]LogUObjectHash: Compacting FUObjectHashTables data took   6.66ms
+[2019.11.06-10.04.28:746][725]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
+[2019.11.06-10.04.28:790][725]LogClass: Could not find existing class EvilBatteryPickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2019.11.06-10.04.28:793][725]LogClass: EBatteryPlayState HotReload.
+[2019.11.06-10.04.28:800][725]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2019.11.06-10.04.28:940][725]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
+[2019.11.06-10.04.28:940][725]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0004 seconds. Added 6 classes and 3 folders.
+[2019.11.06-10.04.28:945][725]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
+[2019.11.06-10.04.29:072][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.11.06-10.04.29:072][725]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.06-10.04.29:088][725]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2739 classes and 664 folders.
+[2019.11.06-10.04.29:088][725]Display: HotReload took 66.8s.
+[2019.11.06-10.08.00:300][600]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/EvilBatteryPickup.EvilBatteryPickup
+[2019.11.06-10.08.00:624][600]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.11.06-10.08.00:681][601]LogRenderer: Reallocating scene render targets to support 1616x996 Format 10 NumSamples 1 (Frame:1).
+[2019.11.06-10.08.08:619][534]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Battery_BP.Battery_BP
+[2019.11.06-10.08.32:115][274]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2019.11.06-10.08.32:119][274]LogMetaData: Removing '/Game/BP/EvilBatteryPickup_BP.EvilBatteryPickup_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP/EvilBatteryPickup.PackageMetaData'
+[2019.11.06-10.08.32:119][274]LogMetaData: Removing '/Game/BP/EvilBatteryPickup_BP.SKEL_EvilBatteryPickup_BP_C' ref from Metadata '/Game/BP/EvilBatteryPickup.PackageMetaData'
+[2019.11.06-10.08.32:119][274]LogMetaData: Removing '/Game/BP/EvilBatteryPickup_BP.EvilBatteryPickup_BP_C' ref from Metadata '/Game/BP/EvilBatteryPickup.PackageMetaData'
+[2019.11.06-10.08.32:119][274]LogMetaData: Removing '/Game/BP/EvilBatteryPickup_BP.EvilBatteryPickup_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP/EvilBatteryPickup.PackageMetaData'
+[2019.11.06-10.08.32:119][274]LogMetaData: Removing '/Game/BP/EvilBatteryPickup_BP.EvilBatteryPickup_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP/EvilBatteryPickup.PackageMetaData'
+[2019.11.06-10.08.32:119][274]LogMetaData: Removing '/Game/BP/EvilBatteryPickup_BP.EvilBatteryPickup_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP/EvilBatteryPickup.PackageMetaData'
+[2019.11.06-10.08.32:134][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/EvilBatteryPickup_BP" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset" SILENT=true
+[2019.11.06-10.08.32:146][274]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/EvilBatteryPickup_BP8188B73F47506947BE18C6AB0E3321B8.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset'
+[2019.11.06-10.08.32:313][274]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2019.11.06-10.08.32:344][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2019.11.06-10.08.32:376][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.11.06-10.30.16:841][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/EvilBatteryPickup_BP" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset" SILENT=true
+[2019.11.06-10.30.16:878][400]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/EvilBatteryPickup_BP6600E9084A3728F6D919C7B6BCCE8FE1.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset'
+[2019.11.06-10.32.29:734][ 91]BlueprintLog: New page: Compile EvilBatteryPickup_BP
+[2019.11.06-10.32.29:913][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.06-10.32.30:350][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/EvilBatteryPickup_BP" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset" SILENT=true
+[2019.11.06-10.32.30:370][140]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/EvilBatteryPickup_BP3104980F40E7239C0C047C91CDEFF547.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset'
+[2019.11.06-10.34.03:210][217]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2019.11.06-10.34.03:499][217]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2019.11.06-10.34.03:499][217]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.11.06-10.34.03:748][217]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.06-10.34.03:758][217]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2019.11.06-10.34.03:758][217]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.11.06-10.34.03:802][217]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.06-10.34.04:337][218]LogRenderer: Reallocating scene render targets to support 1616x1244 Format 10 NumSamples 1 (Frame:1).
+[2019.11.06-10.34.27:682][926]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.06-10.34.48:754][389]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Battery_BP.Battery_BP
+[2019.11.06-10.35.00:448][747]BlueprintLog: New page: Compile EvilBatteryPickup_BP
+[2019.11.06-10.35.00:685][747]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2019.11.06-10.35.01:106][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/EvilBatteryPickup_BP" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset" SILENT=true
+[2019.11.06-10.35.01:125][794]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/EvilBatteryPickup_BP70FE6F27425406E46B7CA09EA1BAD112.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset'
+[2019.11.06-10.35.43:133][801]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/ExampleContent/Effects/ParticleSystems/P_evil_electricity_arc1.P_evil_electricity_arc1
+[2019.11.06-10.35.43:151][801]LogBlueprintActionDatabase: Requesting refresh due to module change: Cascade (loaded)
+[2019.11.06-10.35.43:151][801]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.11.06-10.35.43:266][801]LogBlueprintActionDatabase: Requesting refresh due to module change: DistCurveEditor (loaded)
+[2019.11.06-10.35.53:424][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.06-10.36.02:886][ 92]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.06-10.36.14:747][512]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.06-10.36.18:204][926]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.06-10.36.26:534][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.06-10.36.32:519][628]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.06-10.36.43:247][909]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.06-10.36.46:235][267]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.06-10.36.54:069][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.06-10.36.55:367][359]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.06-10.37.09:345][ 27]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.06-10.37.16:134][835]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/P_evil_electricity_arc1C0A618424BC4C5F74499F8A39DFBB083.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_evil_electricity_arc1.uasset'
+[2019.11.06-10.37.23:613][725]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.06-10.37.27:508][191]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.06-10.37.37:678][404]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/P_evil_electricity_arc10FF602FE4F5994AE1F2DA18C073DEA9A.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_evil_electricity_arc1.uasset'
+[2019.11.06-10.37.39:784][655]LogCascade: Quitting Cascade. FXSystem=0x000002A22DCBB040
+[2019.11.06-10.37.51:388][ 20]BlueprintLog: New page: Compile EvilBatteryPickup_BP
+[2019.11.06-10.37.51:659][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2019.11.06-10.37.52:089][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/EvilBatteryPickup_BP" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset" SILENT=true
+[2019.11.06-10.37.52:112][ 68]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/EvilBatteryPickup_BP5C90AC06482A4A8D3ACFBEBF1B90521B.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset'
+[2019.11.06-10.38.33:697][959]BlueprintLog: New page: Compile EvilBatteryPickup_BP
+[2019.11.06-10.38.33:945][959]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2019.11.06-10.39.35:856][250]BlueprintLog: New page: Compile EvilBatteryPickup_BP
+[2019.11.06-10.39.36:101][250]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2019.11.06-10.39.36:436][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/EvilBatteryPickup_BP" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset" SILENT=true
+[2019.11.06-10.39.36:457][287]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/EvilBatteryPickup_BP52332C774207CA879CEA05994006DF3C.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset'
+[2019.11.06-10.41.13:181][812]Cmd: EDIT COPY
+[2019.11.06-10.41.13:472][845]Cmd: EDIT PASTE
+[2019.11.06-10.42.45:422][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.06-10.42.45:472][842]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2019.11.06-10.42.45:709][842]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Level1DD7D3C044D9DBCA0697936AC54C1073B.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level1.umap'
+[2019.11.06-10.42.45:739][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1_BuiltData" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level1_BuiltData.uasset" SILENT=true
+[2019.11.06-10.42.46:091][842]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Level1_BuiltData88338EF4474C533674F8E394E09F1DBA.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level1_BuiltData.uasset'
+[2019.11.06-10.42.48:544][127]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.06-10.43.10:907][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.06-10.43.10:954][797]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2019.11.06-10.43.11:194][797]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Level1E344956C4EB7CF71A5F2E7AF8ADFF382.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level1.umap'
+[2019.11.06-10.43.11:221][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1_BuiltData" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level1_BuiltData.uasset" SILENT=true
+[2019.11.06-10.43.11:465][797]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Level1_BuiltData88523055424BAD8C304167BDB759C14B.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level1_BuiltData.uasset'
+[2019.11.06-10.48.54:115][219]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.11.06-10.51.00:016][701]BlueprintLog: New page: Compile EvilBatteryPickup_BP
+[2019.11.06-10.51.00:263][701]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2019.11.06-10.51.00:874][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/EvilBatteryPickup_BP" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset" SILENT=true
+[2019.11.06-10.51.00:900][771]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/EvilBatteryPickup_BPD67E50E04853E9F82B8DD2BC2D862C6E.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/BP/EvilBatteryPickup_BP.uasset'
+[2019.11.06-10.51.05:158][265]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.06-10.51.05:192][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.11.06-10.51.05:192][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.06-10.51.05:192][265]PIE: New page: PIE session: Level1 (Nov 6, 2019, 2:51:05 PM)
+[2019.11.06-10.51.05:205][265]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2019.11.06-10.51.05:208][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003115s)
+[2019.11.06-10.51.05:209][265]LogAIModule: Creating AISystem for world Level1
+[2019.11.06-10.51.05:209][265]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2019.11.06-10.51.05:209][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.004086s)
+[2019.11.06-10.51.05:254][265]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2019.11.06-10.51.05:270][265]LogInit: XAudio2 using 'Speakers (2- Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.06-10.51.05:280][265]LogInit: FAudioDevice initialized.
+[2019.11.06-10.51.05:317][265]LogLoad: Game class is 'GameMode_BP_C'
+[2019.11.06-10.51.05:318][265]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.11.06-12.51.05
+[2019.11.06-10.51.05:319][265]LogWorld: Bringing up level for play took: 0.001633
+[2019.11.06-10.51.05:338][265]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.11.06-10.51.05:344][265]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.11.06-10.51.05:345][265]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.11.06-10.51.05:351][265]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.767
+[2019.11.06-10.51.05:351][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.11.06-10.51.19:933][978]LogClass: You have collected Battery_BP_C_2
+[2019.11.06-10.51.19:934][978]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2019.11.06-10.51.23:580][415]LogClass: You have collected Battery_BP_C_13
+[2019.11.06-10.51.23:580][415]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2019.11.06-10.51.23:888][452]LogClass: You have collected Battery_BP_C_8
+[2019.11.06-10.51.23:888][452]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2019.11.06-10.51.24:138][482]LogClass: You have collected Battery_BP_C_11
+[2019.11.06-10.51.24:138][482]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2019.11.06-10.51.24:780][559]LogClass: You have collected Battery_BP_C_6
+[2019.11.06-10.51.24:780][559]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2019.11.06-10.51.26:710][785]LogClass: You have collected Battery_BP_C_21
+[2019.11.06-10.51.28:069][948]LogClass: You have collected Battery_BP_C_17
+[2019.11.06-10.51.28:069][948]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2019.11.06-10.51.28:792][ 34]LogClass: You have collected Battery_BP_C_0
+[2019.11.06-10.51.28:792][ 34]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2019.11.06-10.51.28:950][ 53]LogClass: You have collected Battery_BP_C_18
+[2019.11.06-10.51.28:950][ 53]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2019.11.06-10.51.29:259][ 90]LogClass: You have collected Battery_BP_C_1
+[2019.11.06-10.51.29:260][ 90]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2019.11.06-10.51.30:301][215]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.11.06-10.51.30:302][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-10.51.30:331][215]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.06-10.51.30:332][215]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2019.11.06-10.51.30:387][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-10.51.30:424][215]LogUObjectHash: Compacting FUObjectHashTables data took   6.62ms
+[2019.11.06-10.51.30:449][216]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.11.06-10.51.35:939][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.06-13.02.49:481][259]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\janessa.aulen\Downloads\Mushroom.fbx)
+[2019.11.06-13.02.49:512][259]LogFbx: Loading FBX Scene from C:\Users\janessa.aulen\Downloads\Mushroom.fbx
+[2019.11.06-13.02.49:524][259]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.06-13.02.58:873][259]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.06-13.02.59:102][259]LogMaterial: Display: Missing cached shader map for material mushroom1, compiling. 
+[2019.11.06-13.02.59:150][259]LogFbx: Display: Triangulating static mesh mushroom
+[2019.11.06-13.02.59:323][259]LogStaticMesh: Building static mesh Mushroom...
+[2019.11.06-13.02.59:329][259]LogBlueprintActionDatabase: Requesting refresh due to module change: MeshBuilder (loaded)
+[2019.11.06-13.02.59:365][259]LogStaticMesh: Built static mesh [0.04s] /Game/Meshes/Mushroom.Mushroom
+[2019.11.06-13.02.59:388][259]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.06-13.02.59:407][259]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\janessa.aulen\Downloads\mese.fbx)
+[2019.11.06-13.02.59:422][259]LogFbx: Loading FBX Scene from C:\Users\janessa.aulen\Downloads\mese.fbx
+[2019.11.06-13.02.59:429][259]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.06-13.03.04:016][259]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.06-13.03.04:060][259]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.11.06-13.03.04:082][259]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2019.11.06-13.03.04:095][259]LogFbx: Display: Triangulating static mesh Cube.001
+[2019.11.06-13.03.04:102][259]LogStaticMesh: Building static mesh mese...
+[2019.11.06-13.03.04:106][259]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/mese.mese
+[2019.11.06-13.03.04:116][259]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.06-13.03.04:122][259]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\janessa.aulen\Downloads\mago-cc.fbx)
+[2019.11.06-13.03.04:135][259]LogFbx: Loading FBX Scene from C:\Users\janessa.aulen\Downloads\mago-cc.fbx
+[2019.11.06-13.03.04:172][259]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.06-13.03.15:872][259]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.06-13.03.15:907][259]LogFbx: =================================================
+[2019.11.06-13.03.15:907][259]LogFbx: Dumping Node START [Cube.001] 
+[2019.11.06-13.03.15:907][259]LogFbx: 	Total Deformer Count -861258512.
+[2019.11.06-13.03.15:907][259]LogFbx: 		[Node 1] Armature (Type Skin).
+[2019.11.06-13.03.15:907][259]LogFbx: =================================================
+[2019.11.06-13.03.15:907][259]LogFbx: 	Attribute (Cube.000) Type (4).
+[2019.11.06-13.03.15:907][259]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2019.11.06-13.03.15:907][259]LogFbx: Dumping Node END [Cube.001]
+[2019.11.06-13.03.15:907][259]LogFbx: =================================================
+[2019.11.06-13.03.15:907][259]LogFbx: Dumping Node START [Plane] 
+[2019.11.06-13.03.15:907][259]LogFbx: 	Total Deformer Count 783583408.
+[2019.11.06-13.03.15:907][259]LogFbx: 	Attribute (Plane) Type (4).
+[2019.11.06-13.03.15:907][259]LogFbx: 		[Node Attribute Child 1] Plane (Type Mesh).
+[2019.11.06-13.03.15:907][259]LogFbx: Dumping Node END [Plane]
+[2019.11.06-13.03.15:907][259]LogFbx: =================================================
+[2019.11.06-13.03.15:907][259]LogFbx: Dumping Node START [Cube.001] 
+[2019.11.06-13.03.15:907][259]LogFbx: 	Total Deformer Count -861258344.
+[2019.11.06-13.03.15:907][259]LogFbx: 		[Node 1] Armature (Type Skin).
+[2019.11.06-13.03.15:907][259]LogFbx: =================================================
+[2019.11.06-13.03.15:907][259]LogFbx: 	Attribute (Cube.000) Type (4).
+[2019.11.06-13.03.15:907][259]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2019.11.06-13.03.15:907][259]LogFbx: Dumping Node END [Cube.001]
+[2019.11.06-13.03.15:908][259]LogFbx: =================================================
+[2019.11.06-13.03.15:908][259]LogFbx: Dumping Node START [Plane] 
+[2019.11.06-13.03.15:908][259]LogFbx: 	Total Deformer Count 783583408.
+[2019.11.06-13.03.15:908][259]LogFbx: 	Attribute (Plane) Type (4).
+[2019.11.06-13.03.15:908][259]LogFbx: 		[Node Attribute Child 1] Plane (Type Mesh).
+[2019.11.06-13.03.15:908][259]LogFbx: Dumping Node END [Plane]
+[2019.11.06-13.03.15:909][259]LogFbx: Valid bind pose for Pose (Cube.000) - Cube.001
+[2019.11.06-13.03.15:918][259]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.06-13.03.15:918][259]FBXImport: Error: Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2019.11.06-13.03.15:918][259]FBXImport: Error: Multiple roots found 
+[2019.11.06-13.03.15:918][259]FBXImport: Warning: Get Import Data has failed. 
+[2019.11.06-13.03.15:918][259]FBXImport: Error: Import failed. 
+[2019.11.06-13.03.21:517][259]LogSlate: Window 'Message' being destroyed
+[2019.11.06-13.03.21:520][259]LogAssetTools: Warning: Failed to import 'C:\Users\janessa.aulen\Downloads\mago-cc.fbx'. Failed to create asset '/Game/Meshes/mago-cc'.
+Please see Output Log for details.
+[2019.11.06-13.03.24:987][588]LogUObjectHash: Compacting FUObjectHashTables data took   7.00ms
+[2019.11.06-13.03.24:988][588]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.107
+[2019.11.06-13.03.24:989][588]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Mushroom] ([1] browsable assets)...
+[2019.11.06-13.03.24:999][588]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Mushroom.Mushroom]
+[2019.11.06-13.03.24:999][588]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Mushroom]
+[2019.11.06-13.03.25:026][588]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Mushroom_Auto1199D6FD4462D5192F129F78F2FCE650D.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Autosaves/Game/Meshes/Mushroom_Auto1.uasset'
+[2019.11.06-13.03.25:027][588]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/mushroom1] ([1] browsable assets)...
+[2019.11.06-13.03.25:037][588]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/mushroom1.mushroom1]
+[2019.11.06-13.03.25:037][588]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/mushroom1]
+[2019.11.06-13.03.25:052][588]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/mushroom1_Auto190F0935D4C0A1A6A892BAEA2D62533B7.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Autosaves/Game/Meshes/mushroom1_Auto1.uasset'
+[2019.11.06-13.03.25:052][588]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/mese] ([1] browsable assets)...
+[2019.11.06-13.03.25:062][588]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/mese.mese]
+[2019.11.06-13.03.25:062][588]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/mese]
+[2019.11.06-13.03.25:078][588]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/mese_Auto11D155C9F4D942FD2CC0A8AB60568733E.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Autosaves/Game/Meshes/mese_Auto1.uasset'
+[2019.11.06-13.03.25:080][588]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Material] ([1] browsable assets)...
+[2019.11.06-13.03.25:090][588]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Material.Material]
+[2019.11.06-13.03.25:090][588]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Material]
+[2019.11.06-13.03.25:104][588]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Material_Auto103CDD44D44FDD1D5908E699C1AD70349.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Autosaves/Game/Meshes/Material_Auto1.uasset'
+[2019.11.06-13.03.25:105][588]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Material_001] ([1] browsable assets)...
+[2019.11.06-13.03.25:115][588]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Material_001.Material_001]
+[2019.11.06-13.03.25:115][588]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Material_001]
+[2019.11.06-13.03.25:130][588]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Material_001_Auto14A7755EF4E2E4339BEBCA5A7D6106C53.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Autosaves/Game/Meshes/Material_001_Auto1.uasset'
+[2019.11.06-13.03.25:136][588]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/mago-cc_Auto1318721D940689C53347F9A88B50C1326.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Autosaves/Game/Meshes/mago-cc_Auto1.uasset'
+[2019.11.06-13.03.25:137][588]LogFileHelpers: Auto-saving content packages took 0.149
+[2019.11.06-13.03.32:014][388]LogSlate: Window 'Message Log' being destroyed
+[2019.11.06-13.03.32:017][388]LogSlate: Window 'Message Log' being destroyed
+[2019.11.06-13.03.44:530][881]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Meshes/Mushroom.Mushroom
+[2019.11.06-13.03.44:541][881]LogBlueprintActionDatabase: Requesting refresh due to module change: StaticMeshEditor (loaded)
+[2019.11.06-13.03.45:061][882]LogRenderer: Reallocating scene render targets to support 1912x1280 Format 10 NumSamples 1 (Frame:1).
+[2019.11.06-13.04.08:725][626]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (46.872 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.06-13.05.45:103][197]LogUObjectHash: Compacting FUObjectHashTables data took   7.16ms
+[2019.11.06-13.05.47:186][197]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.06-13.05.47:313][197]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.06-13.05.47:385][197]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.06-13.05.47:450][197]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Meshes/Material_001.Material_001
+[2019.11.06-13.05.48:466][197]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2019.11.06-13.06.03:958][489]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\janessa.aulen\Downloads\mago-cc.fbx)
+[2019.11.06-13.06.03:968][489]LogFbx: Loading FBX Scene from C:\Users\janessa.aulen\Downloads\mago-cc.fbx
+[2019.11.06-13.06.03:979][489]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.06-13.06.20:697][489]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.06-13.06.20:727][489]LogFbx: =================================================
+[2019.11.06-13.06.20:727][489]LogFbx: Dumping Node START [Cube.001] 
+[2019.11.06-13.06.20:727][489]LogFbx: 	Total Deformer Count -2138807968.
+[2019.11.06-13.06.20:727][489]LogFbx: 	Attribute (Cube.000) Type (4).
+[2019.11.06-13.06.20:727][489]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2019.11.06-13.06.20:727][489]LogFbx: Dumping Node END [Cube.001]
+[2019.11.06-13.06.20:727][489]LogFbx: =================================================
+[2019.11.06-13.06.20:727][489]LogFbx: Dumping Node START [Cube.001] 
+[2019.11.06-13.06.20:727][489]LogFbx: 	Total Deformer Count -2138807912.
+[2019.11.06-13.06.20:727][489]LogFbx: 	Attribute (Cube.000) Type (4).
+[2019.11.06-13.06.20:727][489]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2019.11.06-13.06.20:727][489]LogFbx: Dumping Node END [Cube.001]
+[2019.11.06-13.06.20:730][489]LogMaterial: Warning: Material /Game/Meshes/rosa.rosa needed to have new flag set bUsedWithSkeletalMesh !
+[2019.11.06-13.06.20:733][489]LogMaterial: Display: Missing cached shader map for material rosa, compiling. 
+[2019.11.06-13.06.20:774][489]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.11.06-13.06.20:775][489]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.06-13.06.20:775][489]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.06-13.06.20:775][489]LogMaterial: Display: Missing cached shader map for material rosa, compiling. 
+[2019.11.06-13.06.20:813][489]LogMaterial: Warning: Material /Game/Meshes/amarilklo.amarilklo needed to have new flag set bUsedWithSkeletalMesh !
+[2019.11.06-13.06.20:815][489]LogMaterial: Display: Missing cached shader map for material amarilklo, compiling. 
+[2019.11.06-13.06.20:851][489]LogMaterial: Display: Missing cached shader map for material amarilklo, compiling. 
+[2019.11.06-13.06.20:884][489]LogMaterial: Warning: Material /Game/Meshes/negro.negro needed to have new flag set bUsedWithSkeletalMesh !
+[2019.11.06-13.06.20:886][489]LogMaterial: Display: Missing cached shader map for material negro, compiling. 
+[2019.11.06-13.06.20:918][489]LogMaterial: Display: Missing cached shader map for material negro, compiling. 
+[2019.11.06-13.06.20:946][489]LogFbx: Triangulating skeletal mesh Cube.001
+[2019.11.06-13.06.21:361][489]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2019.11.06-13.06.21:521][489]LogSkeletalMesh: Section 0: 482 vertices, 1 active bones
+[2019.11.06-13.06.21:521][489]LogSkeletalMesh: Section 1: 50 vertices, 1 active bones
+[2019.11.06-13.06.21:521][489]LogSkeletalMesh: Section 2: 4652 vertices, 1 active bones
+[2019.11.06-13.06.21:521][489]LogSkeletalMesh: Section 0: Material=0, 732 triangles
+[2019.11.06-13.06.21:522][489]LogSkeletalMesh: Section 1: Material=1, 80 triangles
+[2019.11.06-13.06.21:522][489]LogSkeletalMesh: Section 2: Material=2, 7918 triangles
+[2019.11.06-13.06.21:523][489]LogSkeletalMesh: Building Skeletal Mesh mago-cc...
+[2019.11.06-13.06.21:530][489]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Meshes/mago-cc.mago-cc
+[2019.11.06-13.06.22:694][489]LogShaderCompilers: Display: Shaders left to compile 180
+[2019.11.06-13.06.23:427][489]LogShaderCompilers: Display: Shaders left to compile 170
+[2019.11.06-13.06.23:824][489]LogShaderCompilers: Display: Shaders left to compile 160
+[2019.11.06-13.06.24:280][489]LogShaderCompilers: Display: Shaders left to compile 150
+[2019.11.06-13.06.25:561][489]LogShaderCompilers: Display: Shaders left to compile 140
+[2019.11.06-13.06.26:265][489]LogShaderCompilers: Display: Shaders left to compile 130
+[2019.11.06-13.06.26:752][489]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.11.06-13.06.27:403][489]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.11.06-13.06.28:352][489]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.11.06-13.06.28:522][489]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.11.06-13.06.30:133][489]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.11.06-13.06.30:150][489]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.11.06-13.06.30:897][489]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.11.06-13.06.31:890][489]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.06-13.06.32:391][489]LogSlate: Window 'Message' being destroyed
+[2019.11.06-13.06.32:430][489]LogLinker: Can't find file '/Game/Meshes/mago-cc_PhysicsAsset'
+[2019.11.06-13.06.32:430][489]LogLinker: Can't find file '/Game/Meshes/mago-cc_PhysicsAsset'
+[2019.11.06-13.06.32:437][489]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.11.06-13.06.32:451][489]LogSkeletalMesh: Building Skeletal Mesh mago-cc...
+[2019.11.06-13.06.32:459][489]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Meshes/mago-cc.mago-cc
+[2019.11.06-13.06.32:466][489]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.06-13.06.32:466][489]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.11.06-13.06.32:473][489]LogSkeletalMesh: Building Skeletal Mesh mago-cc...
+[2019.11.06-13.06.32:481][489]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Meshes/mago-cc.mago-cc
+[2019.11.06-13.06.32:668][494]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.06-13.06.32:926][521]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.06-13.06.35:747][835]LogSlate: Window 'Message Log' being destroyed
+[2019.11.06-13.06.35:749][835]LogSlate: Window 'Message Log' being destroyed
+[2019.11.06-13.06.39:993][303]Cmd: TRANSACTION UNDO
+[2019.11.06-13.06.39:994][303]LogEditorTransaction: Undo Edit Skeleton
+[2019.11.06-13.06.39:996][303]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.11.06-13.06.40:733][303]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.06-13.06.40:733][303]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.06-13.06.40:733][303]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.738 s
+[2019.11.06-13.06.40:733][303]LogOutputDevice: Error: === Handled ensure: ===
+[2019.11.06-13.06.40:733][303]LogOutputDevice: Error: 
+[2019.11.06-13.06.40:733][303]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2124]
+[2019.11.06-13.06.40:733][303]LogOutputDevice: Error: 
+[2019.11.06-13.06.40:733][303]LogOutputDevice: Error: Stack: 
+[2019.11.06-13.06.40:733][303]LogOutputDevice: Error: [Callstack] 0x00007fff4ff01639 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.06-13.06.40:733][303]LogOutputDevice: Error: [Callstack] 0x00007fff4eed83b1 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.06-13.06.40:733][303]LogOutputDevice: Error: [Callstack] 0x00007fff4ba34e85 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff4ba56366 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff4ba42f0c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff4ba9ac53 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff4badae98 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff4ba7929f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff4ba426cc UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff4ba3c576 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff4c1cf0aa UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff39ed559e UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff39ed59fe UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff4cdc71ea UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff4cdf743e UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff39ee4fde UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff39ed542e UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff4cdf8e48 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff4cdef1ce UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff7bfeb55a UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff7bfdef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff7bfed77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff7bfdc090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fffb4d5681d USER32.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fffb4d56212 USER32.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fff7bfee946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007ff6d8545d3e UE4Editor.exe!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007ff6d855554c UE4Editor.exe!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007ff6d85555ca UE4Editor.exe!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007ff6d856316c UE4Editor.exe!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007ff6d8565b8e UE4Editor.exe!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fffb4bf7bd4 KERNEL32.DLL!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: [Callstack] 0x00007fffb5cace71 ntdll.dll!UnknownFunction []
+[2019.11.06-13.06.40:734][303]LogOutputDevice: Error: 
+[2019.11.06-13.06.40:738][303]LogStats:                SubmitErrorReport -  0.000 s
