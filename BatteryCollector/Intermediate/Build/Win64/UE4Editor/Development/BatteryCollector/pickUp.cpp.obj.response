@@ -28,7 +28,6 @@
 /wd4838
 /we4668
 /I .
-/I C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
 /I Runtime
 /I Runtime\Slate\Public
@@ -429,7 +428,6 @@
 /I ThirdParty\libSampleRate
 /I C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Inc\BatteryCollector
 /I C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source
-/I C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector\Public
 /I C:\Users\janessa.aulen\Documents\ueCppPractice\BatteryCollector\Source\BatteryCollector
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public

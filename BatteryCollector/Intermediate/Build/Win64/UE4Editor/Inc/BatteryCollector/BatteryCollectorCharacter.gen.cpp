@@ -404,7 +404,7 @@ void EmptyLinkFunctionForGeneratedCodeBatteryCollectorCharacter() {}
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "BatteryCollectorCharacter.h" },
-		{ "ToolTip", "Follow camera" },
+		{ "ToolTip", "sphere that acts as the area which tells distance for being able to pickup objects" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_CollectionSphere = { "CollectionSphere", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABatteryCollectorCharacter, CollectionSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_CollectionSphere_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_CollectionSphere_MetaData)) };
@@ -466,7 +466,7 @@ void EmptyLinkFunctionForGeneratedCodeBatteryCollectorCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABatteryCollectorCharacter, 375066147);
+	IMPLEMENT_CLASS(ABatteryCollectorCharacter, 3063605499);
 	template<> BATTERYCOLLECTOR_API UClass* StaticClass<ABatteryCollectorCharacter>()
 	{
 		return ABatteryCollectorCharacter::StaticClass();

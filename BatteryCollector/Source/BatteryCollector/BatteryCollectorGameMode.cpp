@@ -45,7 +45,7 @@ void ABatteryCollectorGameMode::BeginPlay() {
 	//set the score to best
 	ABatteryCollectorCharacter* myCharacter = Cast<ABatteryCollectorCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
 	if (myCharacter) {
-		PowerToWin = (myCharacter->GetInitialPower()) * 1.25f;
+		PowerToWin = (myCharacter->GetInitialPower()) * 1.5f;
 	}
 
 	if (HUDWidgetClass != nullptr) {
@@ -121,12 +121,12 @@ void ABatteryCollectorGameMode::HandleNewState(EBatteryPlayState newState) {
 		if (PlayerController) {
 			PlayerController->SetCinematicMode(true, false, false, true, true);
 		}
-		//ragdoll character
-		ACharacter* PlayerCharacter = UGameplayStatics::GetPlayerCharacter(this, 0);
-		if (PlayerCharacter) {
-			PlayerCharacter->GetMesh()->SetSimulatePhysics(true);
-			PlayerCharacter->GetMovementComponent()->MovementState.bCanJump = false;
-		}
+		////ragdoll character
+		//ACharacter* PlayerCharacter = UGameplayStatics::GetPlayerCharacter(this, 0);
+		//if (PlayerCharacter) {
+		//	PlayerCharacter->GetMesh()->SetSimulatePhysics(true);
+		//	PlayerCharacter->GetMovementComponent()->MovementState.bCanJump = false;
+		//}
 	}
 									   break;
 
