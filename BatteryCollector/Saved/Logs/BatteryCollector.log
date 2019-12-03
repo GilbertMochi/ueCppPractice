@@ -988,3 +988,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-11.06.48:633][219]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Level2241EFADC484FD5F7287F11BD06B634D3.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level2.umap'
 [2019.12.03-11.06.48:669][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2_BuiltData" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level2_BuiltData.uasset" SILENT=true
 [2019.12.03-11.06.49:690][219]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Level2_BuiltDataF5390147404962DE7FAB0EAF02F28F92.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level2_BuiltData.uasset'
+[2019.12.03-11.09.57:112][838]LogSlate: FSceneViewport::OnFocusLost() reason 0
