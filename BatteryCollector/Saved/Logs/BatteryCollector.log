@@ -933,3 +933,58 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-11.06.08:689][630]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.968ms to complete.
 [2019.12.03-11.06.08:713][630]LogEditorBuildUtils: Build time 0:06
 [2019.12.03-11.06.08:790][631]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.12.03-11.06.40:174][150]Job is a success!
+[2019.12.03-11.06.40:574][151]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2019.12.03-11.06.40:574][151]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.12.03-11.06.40:574][151]LogVolumetricLightmapImport:      BrickData 25x5x5 = 0.0Mb (trimmed 0.3Mb due to 0.010000 MinBrickError)
+[2019.12.03-11.06.40:574][151]LogVolumetricLightmapImport:      Bricks at Level
+[2019.12.03-11.06.40:574][151]LogVolumetricLightmapImport:          0: 20.0% covering 100.0% of volume
+[2019.12.03-11.06.40:574][151]LogVolumetricLightmapImport:          1: 80.0% covering 6.3% of volume
+[2019.12.03-11.06.40:574][151]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2019.12.03-11.06.43:923][151]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2019.12.03-11.06.43:924][151]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2019.12.03-11.06.43:924][151]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2019.12.03-11.06.43:924][151]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024)
+[2019.12.03-11.06.43:924][151]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024)
+[2019.12.03-11.06.43:924][151]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 512X512)
+[2019.12.03-11.06.43:924][151]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 512X512)
+[2019.12.03-11.06.44:162][151]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 1024X1024)
+[2019.12.03-11.06.44:162][151]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X1024)
+[2019.12.03-11.06.44:162][151]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 1024X1024)
+[2019.12.03-11.06.44:357][151]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 1024X1024)
+[2019.12.03-11.06.44:357][151]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 1024X1024)
+[2019.12.03-11.06.44:368][151]LogStaticLightingSystem: Level2_BuiltData storing lightmap data for 427 meshes in 18 LightmapResourceClusters (23.7 Meshes per cluster).
+[2019.12.03-11.06.44:407][151]Lightmass on GAMELAB-47: 35.1 sec total, 168 ms importing, 185 ms setup, 6.57 sec photons, 28.1 sec processing, 0 ms extra exporting [427/427 mappings]. Threads: 1:52 min total, 1:10 min processing.
+[2019.12.03-11.06.44:410][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2019.12.03-11.06.44:412][151]LogStaticLightingSystem: Illumination: 39.9 sec (3.01 sec encoding lightmaps, 429 ms encoding shadowmaps)
+[2019.12.03-11.06.44:412][151]LogStaticLightingSystem: Lightmap texture memory:  20.5 MB (20.5 MB streaming, 0.0 MB non-streaming), 22 textures
+[2019.12.03-11.06.44:413][151]LogStaticLightingSystem: Shadowmap texture memory: 26.7 MB (26.7 MB streaming, 0.0 MB non-streaming), 5 textures
+[2019.12.03-11.06.44:685][151]DumpUnbuiltLightIteractions
+[2019.12.03-11.06.44:685][151]Lights with unbuilt interactions: 0
+[2019.12.03-11.06.44:685][151]
+[2019.12.03-11.06.44:685][151]Primitives with unbuilt interactions: 0
+[2019.12.03-11.06.44:746][152]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.12.03-11.06.44:746][152]MapCheck: New page: Level2 - Dec 3, 2019, 3:06:44 PM
+[2019.12.03-11.06.44:748][152]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.739ms to complete.
+[2019.12.03-11.06.47:423][160]LogEditorViewport: Clicking on Actor (LMB): BP_CandleHolder_Bronze_C (BP_CandleHolder_Bronze18)
+[2019.12.03-11.06.48:169][219]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.03-11.06.48:177][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.03-11.06.48:216][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.12.03-11.06.48:633][219]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Level2241EFADC484FD5F7287F11BD06B634D3.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level2.umap'
+[2019.12.03-11.06.48:669][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2_BuiltData" FILE="../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level2_BuiltData.uasset" SILENT=true
+[2019.12.03-11.06.49:690][219]LogSavePackage: Moving '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Saved/Level2_BuiltDataF5390147404962DE7FAB0EAF02F28F92.tmp' to '../../../../../../Users/janessa.aulen/Documents/ueCppPractice/BatteryCollector/Content/Maps/Level2_BuiltData.uasset'
